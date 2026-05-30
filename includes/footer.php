@@ -1,6 +1,5 @@
 <footer class="footer">
 
-    <div class="appointment-section">
         <div class="appointment-content">
 
             <div class="dress-icon">
@@ -14,9 +13,7 @@
                     BOOK AN APPOINTMENT
                 </span>
             </a>
-
         </div>
-    </div>
 
     <!-- Newsletter -->
     <div class="newsletter">
@@ -39,8 +36,10 @@
 
         <!-- Left -->
         <div class="footer-contact">
-            <p>1-833-848-6666</p>
-            <p>contact@bespokeinnove.com</p>
+            <div class="footer-contact-title">
+                <p>1-833-848-6666</p>
+                <p>contact@bespokeinnove.com</p>
+            </div>
 
             <a href="#">CONTACT US</a>
         </div>
@@ -53,7 +52,7 @@
         </div>
 
         <!-- Right -->
-        <div class="footer-menu">
+        <div class="footer-terms">
             <a href="#">Press</a>
             <a href="#">Privacy policy</a>
             <a href="#">Terms & conditions</a>

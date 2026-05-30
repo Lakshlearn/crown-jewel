@@ -533,24 +533,23 @@
 
 
         <!-- Right CONTENT -->
-        <div class="about-content">
+        <div class="about-content-bottom">
 
             <h2>
-                WORLD CLASS <br>
-                TAILORING QUALITY
+                A CUSTOM SHOP LIKE <br>
+                NO OTHER
             </h2>
 
-            <p>
-                With over a decade of experience, we have a proven
-                track record of creating innovative and sustainable
-                spaces that enhance the lives of our clients.
-                Our approach to design is centered around
-                collaboration and communication.
-            </p>
-
-            <div class="about-links">
-                <a class="hero-btn" href="#">OUR STORY</a>
-                <a class="hero-btn" href="#">OUR FABRICS</a>
+            <div class="about-content-bottom-text">
+                <p>
+                    Embark on a captivating exploration down our exclusive alley off the renowned Great Jones Street. Uncover a haven, a tailor shop where you can unwind, savor a refreshing beverage and craft extraordinary custom attire that epitomizes the true essence of your unique personal style.
+                </p>
+                
+                <div class="about-links-bottom">
+                    <a class="shrink-underline" href="#">
+                        EXPLORE OUR LOCATIONS
+                    </a>
+                </div>
             </div>
 
         </div>

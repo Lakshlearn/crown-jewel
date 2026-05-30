@@ -155,15 +155,31 @@ body {
 
 /* FOOTER LINKS */
 .footer-links {
-    display: grid;
-    grid-template-columns: 1.5fr 1fr 1fr;
-    gap: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-grow: 0;
+    flex-shrink: 1;
 
     padding-bottom: 40px;
     border-bottom: 1px solid #d8d5d2;
 }
 
-.footer-contact p {
+.footer-contact {
+    width: 33%;
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.footer-contact-title {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-contact > p {
     margin-bottom: 10px;
     font-size: 18px;
 }
@@ -178,6 +194,8 @@ body {
 }
 
 .footer-menu {
+    width: 33%;
+    max-width: 100%;
     display: flex;
     flex-direction: column;
     gap: 20px;
@@ -189,8 +207,22 @@ body {
     font-size: 16px;
 }
 
+.footer-terms {
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.footer-terms a {
+    text-decoration: none;
+    color: #000;
+    font-size: 16px;
+}
+
 /* BOTTOM */
 .footer-bottom {
+    max-width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -209,17 +241,11 @@ body {
     font-size: 16px;
 }
 
-.appointment-section {
-    background: #f3f1ee;
-    padding: 80px 20px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
 
 .appointment-content {
     text-align: center;
     max-width: 900px;
+    margin: 0 auto;
 }
 
 .dress-icon {
@@ -235,19 +261,18 @@ body {
 
 .appointment-content h2 {
     margin: 0;
-    font-size: clamp(2rem, 4vw, 4rem);
-    font-weight: 300;
+    font-size: 38px;
+    font-weight: 400;
     letter-spacing: 1px;
-    line-height: 1.2;
-    color: #111;
+    line-height: 1.3em;
+    color: #000000;
     text-transform: uppercase;
-    margin-bottom: 40px;
+    margin-bottom: 20px;
 }
 
 .appointment-btn {
     display: inline-block;
     background: #111;
-    color: #fff;
     text-decoration: none;
     padding: 20px 34px;
     font-size: 14px;
@@ -255,16 +280,11 @@ body {
     text-transform: uppercase;
     transition: all 0.3s ease;
     position: relative;
+    margin-bottom: 20px;
 }
 
-.appointment-btn::after {
-    content: "";
-    position: absolute;
-    left: 34px;
-    right: 34px;
-    bottom: 16px;
-    height: 1px;
-    background: #fff;
+.appointment-btn span {
+    color: #fff;
 }
 
 .appointment-btn:hover {
@@ -1526,6 +1546,47 @@ body {
     will-change: transform;
 }
 
+.about-content-bottom {
+    width: 40%;
+}
+
+.about-content-bottom h2 {
+    color: #000;
+    font-size: 38px;
+    line-height: 1.3em;
+    font-weight: 400;
+    margin-bottom: 40px;
+}
+
+.about-content-bottom p {
+    max-width: 500px;
+    font-size: 16px;
+    line-height: 1.8;
+    color: #333;
+    margin-bottom: 40px;
+}
+
+.about-content-bottom-text {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding-left: 100px;
+}
+
+.about-content-bottom-text p {
+    margin-bottom: 1em;
+}
+
+.about-links-bottom {
+    display: flex;
+    gap: 30px;
+}
+
+.about-links-bottom a {
+    text-decoration: none;
+    color: #111;
+}
+
 /* =========================
    INSTAGRAM SECTION
 ========================= */
@@ -1689,14 +1750,14 @@ body {
 
 .shrink-underline{
     text-decoration: none;
-    color: #111;
+    color: inherit;
 
     &::after {
         content: "";
         display: block;
         width: 100%;
         height: 1px;
-        background: #111;
+        background: currentColor;
         transform: scaleX(1);
         transform-origin: center;
         transition: transform 0.35s ease;
