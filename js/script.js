@@ -98,3 +98,38 @@ window.addEventListener('scroll', () => {
     bgCircle.style.transform =
         `translate(-50%, -50%) scale(${scale})`;
 });
+
+document.addEventListener('DOMContentLoaded', () => {
+
+    const image = document.querySelector('.about-image-parallax');
+
+    if (!image) return;
+
+    let current = 0;
+    let target = 0;
+
+    function updateParallax() {
+
+        const section = image.closest('.about-section-one');
+
+        const rect = section.getBoundingClientRect();
+
+        const windowHeight = window.innerHeight;
+
+        const progress =
+            (windowHeight - rect.top) /
+            (windowHeight + rect.height);
+
+        target = (progress - 0.5) * -120;
+
+        current += (target - current) * 0.08;
+
+        image.style.transform =
+            `translate3d(0, ${current}px, 0)`;
+
+        requestAnimationFrame(updateParallax);
+    }
+
+    updateParallax();
+
+});

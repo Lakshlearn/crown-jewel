@@ -1,10 +1,11 @@
 <html>
 <head>
     <title>Crown Web</title>
-    <link rel="stylesheet" href='css/style.css'>    
+    <link rel="stylesheet" href='css/style.css'> 
+     <?php include 'includes/header.php'; ?>   
 </head>
 <body>
-    <?php include 'includes/header.php'; ?>
+    
     <section class="hero-section">
 
     <!-- TOP CONTENT -->
