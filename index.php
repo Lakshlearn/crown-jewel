@@ -119,45 +119,44 @@
 
     <div class="about-container">
 
+
         <!-- LEFT CONTENT -->
-        <div class="about-content">
+        <div class="about-content-top">
 
             <h2>
                 WORLD CLASS <br>
                 TAILORING QUALITY
             </h2>
 
-            <p>
-                With over a decade of experience, we have a proven
-                track record of creating innovative and sustainable
-                spaces that enhance the lives of our clients.
-                Our approach to design is centered around
-                collaboration and communication.
-            </p>
-
-            <div class="about-links">
-                <a class="hero-btn" href="#">OUR STORY</a>
-                <a class="hero-btn" href="#">OUR FABRICS</a>
+            <div class="about-content-text">
+                <p>
+                    With over a decade of experience, we have a proven track record of creating innovative and sustainable spaces 
+                    that enhance the lives of our clients. Our approach to design is centered around collaboration and communication.
+                </p>
+                
+                <div class="about-links">
+                    <a class="shrink-underline" href="#">
+                        OUR STORY
+                    </a>
+                    <a class="shrink-underline" href="#">
+                        OUR FABRICS
+                    </a>
+                </div>
             </div>
 
         </div>
-
-
-
-
 
         <!-- RIGHT IMAGES -->
         <div class="about-images">
 
             <!-- BIG IMAGE -->
             <div class="big-image zoom-scroll">
-                <img src="images/POG.png " alt="">
             </div>
 
-            <!-- SMALL FLOATING IMAGE -->
-            <div class="small-image zoom-scroll">
-                 <video autoplay muted loop playsinline>
-                    <source src="videos/MOV1.MOV" type="video/mp4">
+            <!-- SMALL RIGHT -->
+            <div class="small-image sm-img-top zoom-scroll">
+                <video autoplay muted loop playsinline>
+                    <source src="videos/frontmovie1.MOV" type="video/mp4">
                 </video>
             </div>
 
@@ -514,15 +513,15 @@
 
 
         <!-- Left IMAGES -->
-        <div class="about-images-bottom">
+        <div class="about-images">
 
             <!-- BIG IMAGE -->
-            <div class="big-image-bottom zoom-scroll">
+            <div class="big-image zoom-scroll">
             </div>
 
 
             <!-- SMALL RIGHT -->
-            <div class="small-image-bottom zoom-scroll">
+            <div class="small-image sm-img-bottom zoom-scroll">
                 <video autoplay muted loop playsinline>
                     <source src="videos/frontmovie1.MOV" type="video/mp4">
                 </video>
@@ -532,14 +531,14 @@
 
 
         <!-- Right CONTENT -->
-        <div class="about-content-bottom">
+        <div class="about-content">
 
             <h2>
                 A CUSTOM SHOP LIKE <br>
                 NO OTHER
             </h2>
 
-            <div class="about-content-bottom-text">
+            <div class="about-content-text">
                 <p>
                     Embark on a captivating exploration down our exclusive alley off the renowned Great Jones Street. Uncover a haven, a tailor shop where you can unwind, savor a refreshing beverage and craft extraordinary custom attire that epitomizes the true essence of your unique personal style.
                 </p>
