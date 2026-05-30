@@ -1,10 +1,11 @@
+<?php include 'includes/constants.php'; ?>
 <html>
 <head>
     <title>Crown Web</title>
-    <link rel="stylesheet" href='css/style.css'> 
-     <?php include 'includes/header.php'; ?>   
+    <link rel="stylesheet" href='css/style.css'>   
 </head>
 <body>
+    <?php include 'includes/header.php'; ?>
     
     <section class="hero-section">
 
@@ -264,36 +265,7 @@
 
         <!-- PROCESS LIST -->
     <?php
-    $processSteps = [
-        [
-            'title' => 'UNDERSTANDING & REQUIREMENT MAPPING',
-            'description' => 'We begin by understanding your vision, space, and functional needs to define a personalized design direction.'
-        ],
-        [
-            'title' => 'SITE MEASUREMENT',
-            'description' => 'Precise on-site measurements ensure accuracy and seamless integration with your space.'
-        ],
-        [
-            'title' => 'MATERIAL, COLOUR & FINISH SELECTION',
-            'description' => 'Curated mood boards guide the selection of colours, textures, and finishes to achieve depth and luxury.'
-        ],
-        [
-            'title' => '3D DESIGN & APPROVAL',
-            'description' => 'We present detailed drawings and 3D visualizations for your approval before moving ahead.'
-        ],
-        [
-            'title' => 'PRODUCTION & CRAFTING',
-            'description' => 'Expert craftsmanship and advanced techniques bring your design to life with exceptional quality.'
-        ],
-        [
-            'title' => 'QUALITY CHECK & PRE-INSTALLATION',
-            'description' => 'Each element undergoes strict quality checks to ensure perfection before dispatch.'
-        ],
-        [
-            'title' => 'INSTALLATION & FINAL STYLING',
-            'description' => 'We execute precise installation and finishing touches to deliver a flawless space.'
-        ]
-    ];
+    $processSteps = $PROCESS_STEPS;
     ?>
     <div class="process-list">
         <?php foreach ($processSteps as $index => $step): ?>
@@ -398,29 +370,20 @@
 <section class="lower-section">
  
   <!-- Testimonial CAROUSEL -->
+  <?php
+  $testimonials = $TESTIMONIALS;
+  ?>
   <div class="testimonial">
     <div class="testimonial__track" id="testimonialTrack">
  
-      <div class="testimonial__slide active">
-        <blockquote class="testimonial__quote">
-          "Loved my first suit so much, I decided to go and get a second one. Typically, when expectations are so high because of your first experience. Keep up the excellent work, gents!"
-        </blockquote>
-        <p class="testimonial__author">Michael Brilla</p>
-      </div>
- 
-      <div class="testimonial__slide">
-        <blockquote class="testimonial__quote">
-          "My dream custom suit came through. I can't thank you enough for my custom-made suit's excellent customer service and fantastic fit. Thank you."
-        </blockquote>
-        <p class="testimonial__author">John Carlos</p>
-      </div>
- 
-      <div class="testimonial__slide">
-        <blockquote class="testimonial__quote">
-          "Absolutely impeccable craftsmanship. The attention to detail in every stitch is remarkable. This is what bespoke truly means."
-        </blockquote>
-        <p class="testimonial__author">James Hartford</p>
-      </div>
+      <?php foreach ($testimonials as $index => $testimonial): ?>
+        <div class="testimonial__slide <?php echo $index === 0 ? 'active' : ''; ?>">
+          <blockquote class="testimonial__quote">
+            "<?php echo $testimonial['quote']; ?>"
+          </blockquote>
+          <p class="testimonial__author"><?php echo $testimonial['author']; ?></p>
+        </div>
+      <?php endforeach; ?>
  
     </div>
  
@@ -518,20 +481,7 @@
  * Replace the image URLs dynamically from Instagram API if needed.
  */
 
-$instagramPosts = [
-    [
-        'image' => 'https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?q=80&w=1200&auto=format&fit=crop',
-        'link'  => '#'
-    ],
-    [
-        'image' => 'https://images.unsplash.com/photo-1496747611176-843222e1e57c?q=80&w=1200&auto=format&fit=crop',
-        'link'  => '#'
-    ],
-    [
-        'image' => 'https://images.unsplash.com/photo-1483985988355-763728e1935b?q=80&w=1200&auto=format&fit=crop',
-        'link'  => '#'
-    ]
-];
+$instagramPosts = $INSTAGRAM_POSTS;
 ?>
 
 <section class="ig-section" id="igSection">
