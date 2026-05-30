@@ -6,8 +6,8 @@
     </div>
 
     <nav class="nav">
-        <a href="#">H.</a>
-        <a href="#">SHOP</a>
+        <a href="index.php">H.</a>
+        <a href="about.php">ABOUT US</a>
         <a href="#">EXPLORE</a>
         <a href="#">CONTACT</a>
     </nav>

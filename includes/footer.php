@@ -6,7 +6,7 @@
                 <img src="dress-icon.svg" alt="Dress Icon">
             </div>
 
-            <h2>CLOTHES THAT AFFIRM YOU</h2>
+            <h2>INTERIOR THAT AFFIRM YOU</h2>
 
             <a href="#" class="appointment-btn shrink-underline-btn">
                 <span>
@@ -68,7 +68,7 @@
     <div class="footer-bottom">
 
         <div class="copyright">
-            © 2026 VamTam. All rights reserved.
+            © 2026 deskloventures. All rights reserved.
         </div>
 
         <div class="socials">
