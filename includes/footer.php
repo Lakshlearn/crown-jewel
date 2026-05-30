@@ -41,7 +41,11 @@
                 <p>contact@bespokeinnove.com</p>
             </div>
 
-            <a href="#">CONTACT US</a>
+            <div class="footer-contact-us">
+                <a href="#" class="shrink-underline">
+                    CONTACT US
+                </a>
+            </div>
         </div>
 
         <!-- Center -->
