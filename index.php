@@ -1,10 +1,10 @@
 <html>
 <head>
     <title>Crown Web</title>
-    <?php include 'includes/header.php'; ?>
-    <link rel="stylesheet" href="css/style.css">    
+    <link rel="stylesheet" href='css/style.css'>    
 </head>
 <body>
+    <?php include 'includes/header.php'; ?>
     <section class="hero-section">
 
     <!-- TOP CONTENT -->
@@ -521,9 +521,12 @@
                 <img src="images/about-main.jpg" alt="">
             </div>
 
-            <!-- SMALL FLOATING IMAGE -->
+
+            <!-- SMALL RIGHT -->
             <div class="small-image-bottom zoom-scroll">
-                <img src="images/about-small.jpg" alt="">
+                <video autoplay muted loop playsinline>
+                    <source src="videos/frontmovie1.MOV" type="video/mp4">
+                </video>
             </div>
 
         </div>
