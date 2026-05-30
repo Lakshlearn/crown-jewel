@@ -120,45 +120,44 @@
 
     <div class="about-container">
 
+
         <!-- LEFT CONTENT -->
-        <div class="about-content">
+        <div class="about-content-top">
 
             <h2>
                 WORLD CLASS <br>
                 TAILORING QUALITY
             </h2>
 
-            <p>
-                With over a decade of experience, we have a proven
-                track record of creating innovative and sustainable
-                spaces that enhance the lives of our clients.
-                Our approach to design is centered around
-                collaboration and communication.
-            </p>
-
-            <div class="about-links">
-                <a class="hero-btn" href="#">OUR STORY</a>
-                <a class="hero-btn" href="#">OUR FABRICS</a>
+            <div class="about-content-text">
+                <p>
+                    With over a decade of experience, we have a proven track record of creating innovative and sustainable spaces 
+                    that enhance the lives of our clients. Our approach to design is centered around collaboration and communication.
+                </p>
+                
+                <div class="about-links">
+                    <a class="shrink-underline" href="#">
+                        OUR STORY
+                    </a>
+                    <a class="shrink-underline" href="#">
+                        OUR FABRICS
+                    </a>
+                </div>
             </div>
 
         </div>
-
-
-
-
 
         <!-- RIGHT IMAGES -->
         <div class="about-images">
 
             <!-- BIG IMAGE -->
             <div class="big-image zoom-scroll">
-                <img src="images/POG.png " alt="">
             </div>
 
-            <!-- SMALL FLOATING IMAGE -->
-            <div class="small-image zoom-scroll">
-                 <video autoplay muted loop playsinline>
-                    <source src="videos/MOV1.MOV" type="video/mp4">
+            <!-- SMALL RIGHT -->
+            <div class="small-image sm-img-top zoom-scroll">
+                <video autoplay muted loop playsinline>
+                    <source src="videos/frontmovie1.MOV" type="video/mp4">
                 </video>
             </div>
 
@@ -187,8 +186,7 @@
         <!-- CARD 1 -->
         <div class="category-card">
 
-            <div class="image-wrapper">
-                <img src="images/catimg1.png" alt="">
+            <div class="fit-img-1">
             </div>
 
             <a href="#" class="category-link">
@@ -204,8 +202,7 @@
         <!-- CARD 2 -->
         <div class="category-card">
 
-            <div class="image-wrapper">
-                <img src="images/category2.jpg" alt="">
+            <div class="fit-img-2">
             </div>
 
             <a href="#" class="category-link">
@@ -221,8 +218,7 @@
         <!-- CARD 3 -->
         <div class="category-card tall-card">
 
-            <div class="image-wrapper">
-                <img src="images/category3.jpg" alt="">
+            <div class="fit-img-3">
             </div>
 
             <a href="#" class="category-link">
@@ -238,8 +234,7 @@
         <!-- CARD 4 -->
         <div class="category-card">
 
-            <div class="image-wrapper">
-                <img src="images/category4.jpg" alt="">
+            <div class="fit-img-4">
             </div>
 
             <a href="#" class="category-link">
@@ -384,10 +379,9 @@
  
   <!-- Hero model photo -->
   <div class="products-hero">
-    <!--
-      Replace with: <img src="model-hero.jpg" alt="Model in bespoke suit" />
-      and remove the .ph div
-    -->
+    <!-- Image -->
+      <div class="prod-img-1">
+      </div>
     <div class="ph">
       <svg class="ph-icon" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
         <circle cx="12" cy="7" r="4"/><path d="M5.5 20a6.5 6.5 0 0 1 13 0"/>
@@ -399,9 +393,9 @@
   <!-- Product card 1 -->
   <div class="product-card">
     <div class="product-card__img">
-      <!--
-        Replace with: <img src="blazer.jpg" alt="Slim Fit Single Breasted Moleskin Blazer" />
-      -->
+        <!-- Image  -->
+     <div class="prod-img-2">
+      </div>
       <div class="ph">
         <svg class="ph-icon" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
           <path d="M6 2l-4 5v15h16V7l-4-5"/><path d="M9 2s1 3 3 3 3-3 3-3"/>
@@ -515,15 +509,15 @@
 
 
         <!-- Left IMAGES -->
-        <div class="about-images-bottom">
+        <div class="about-images">
 
             <!-- BIG IMAGE -->
-            <div class="big-image-bottom zoom-scroll">
+            <div class="big-image zoom-scroll">
             </div>
 
 
             <!-- SMALL RIGHT -->
-            <div class="small-image-bottom zoom-scroll">
+            <div class="small-image sm-img-bottom zoom-scroll">
                 <video autoplay muted loop playsinline>
                     <source src="videos/frontmovie1.MOV" type="video/mp4">
                 </video>
@@ -533,14 +527,14 @@
 
 
         <!-- Right CONTENT -->
-        <div class="about-content-bottom">
+        <div class="about-content">
 
             <h2>
                 A CUSTOM SHOP LIKE <br>
                 NO OTHER
             </h2>
 
-            <div class="about-content-bottom-text">
+            <div class="about-content-text">
                 <p>
                     Embark on a captivating exploration down our exclusive alley off the renowned Great Jones Street. Uncover a haven, a tailor shop where you can unwind, savor a refreshing beverage and craft extraordinary custom attire that epitomizes the true essence of your unique personal style.
                 </p>
