@@ -190,7 +190,7 @@
             <div class="fit-img-1">
             </div>
 
-            <a href="#" class="category-link">
+            <a href="#" class="category-link text-md">
                 SEMI PRECIOUS STONES
             </a>
 
@@ -206,7 +206,7 @@
             <div class="fit-img-2">
             </div>
 
-            <a href="#" class="category-link">
+            <a href="#" class="category-link text-md">
                 BESPOKE WOMEN'S SUITS
             </a>
 
@@ -222,7 +222,7 @@
             <div class="fit-img-3">
             </div>
 
-            <a href="#" class="category-link">
+            <a href="#" class="category-link text-md">
                 BESPOKE COATS
             </a>
 
@@ -238,7 +238,7 @@
             <div class="fit-img-4">
             </div>
 
-            <a href="#" class="category-link">
+            <a href="#" class="category-link text-md">
                 BESPOKE BOW TIES
             </a>
 
@@ -450,8 +450,9 @@
       </div>
     </div>
     <div class="product-card__info">
-      <p class="product-card__name">Regular Fit Cotton Blend Shirt</p>
-      <p class="product-card__price">$215</p>
+      <p class="product-card__name text-md">
+        Regular Fit Cotton Blend Shirt
+    </p>
       <div class="product-card__dots">
         <div class="product-card__dot active"></div>
         <div class="product-card__dot"></div>
@@ -472,8 +473,7 @@
       </div>
     </div>
     <div class="product-card__info">
-      <p class="product-card__name">Suit blazer in stretch wool</p>
-      <p class="product-card__price">$215</p>
+      <p class="product-card__name text-md">Suit blazer in stretch wool</p>
       <div class="product-card__dots">
         <div class="product-card__dot"></div>
         <div class="product-card__dot active"></div>

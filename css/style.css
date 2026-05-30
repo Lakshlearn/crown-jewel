@@ -818,16 +818,11 @@ body {
 .category-link {
     display: inline-block;
     margin-top: 14px;
-
     text-decoration: none;
     color: #111;
-
-    font: size 17px;
     letter-spacing: 1.5px;
-
     border-bottom: 1px solid #111;
     padding-bottom: 3px;
-
     transition: 0.3s;
 }
 
@@ -1212,7 +1207,6 @@ body {
 
 .product-card__name {
     font-family: var(--font-body);
-    font-size: 0.8rem;
     font-weight: 300;
     letter-spacing: 0.02em;
     margin-bottom: 6px;
@@ -1974,4 +1968,8 @@ body {
     background-position: center;
     background-repeat: no-repeat;
     background-image: url("../images/prod-4.png");
+}
+
+.text-md {
+    font-size: 17px;
 }
