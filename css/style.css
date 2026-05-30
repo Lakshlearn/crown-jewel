@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600&display=swap');
 
+:root {
+    --light-brown: #F4F1EE;
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -8,7 +12,7 @@
 
 body {
     font-family: 'Montserrat', sans-serif;
-    background: #f4f1ef;
+    background: white;
     overflow-x: hidden;
     color: #111;
 }
@@ -897,7 +901,7 @@ body {
 
 body {
     font-family: 'Montserrat', sans-serif;
-    background: #f4f1ef;
+    background: white;
     overflow-x: hidden;
     color: #111;
 }
@@ -909,6 +913,8 @@ body {
 .process-section {
     width: 100%;
     padding: 80px 7%;
+    background-color: var(--light-brown);
+    margin-bottom: 12px;
 }
 
 /* =========================
@@ -961,6 +967,7 @@ body {
 
 .process-item {
     display: grid;
+    align-items: center;
     grid-template-columns: 80px 420px 1fr;
 
     gap: 35px;
@@ -987,23 +994,14 @@ body {
 /* TEXT */
 
 .process-number {
-    font-size: 22px;
+    font-size: 16px;
     font-weight: 300;
 }
 
 .process-title {
-    font-size: 24px;
+    font-size: 16px;
     font-weight: 400;
-    line-height: 1.4;
-}
-
-.process-description {
-    max-width: 900px;
-
-    font-size: 20px;
-    line-height: 1.7;
-
-    color: #222;
+    line-height: 1.5em;
 }
 
 /* =========================
@@ -1032,14 +1030,6 @@ body {
     .process-item {
         grid-template-columns: 70px 320px 1fr;
     }
-
-    .process-title {
-        font-size: 20px;
-    }
-
-    .process-description {
-        font-size: 17px;
-    }
 }
 
 @media(max-width:992px) {
@@ -1047,10 +1037,6 @@ body {
     .process-item {
         grid-template-columns: 1fr;
         gap: 12px;
-    }
-
-    .process-description {
-        max-width: 100%;
     }
 
     .process-top {
@@ -1073,19 +1059,6 @@ body {
         height: 45px;
     }
 
-    .process-number {
-        font-size: 18px;
-    }
-
-    .process-title {
-        font-size: 18px;
-    }
-
-    .process-description {
-        font-size: 15px;
-        line-height: 1.6;
-    }
-
     .process-button {
         margin-top: 35px;
     }
@@ -1100,6 +1073,8 @@ body {
     display: grid;
     grid-template-columns: 46% 1fr 1fr;
     min-height: 92vh;
+    column-gap: 12px;
+    margin-bottom: 12px;
 }
 
 /* ── Hero model image ── */
@@ -1232,11 +1207,12 @@ body {
     grid-template-columns: 1fr 1.4fr 1fr;
     min-height: 60vh;
     border-top: 1px solid var(--border);
+    column-gap: 12px;
 }
 
 /* ── Testimonial carousel panel ── */
 .testimonial {
-    background: var(--bg-warm);
+    background: var(--light-brown);
     padding: 56px 48px 48px;
     display: flex;
     flex-direction: column;
@@ -1260,7 +1236,7 @@ body {
     display: flex;
     flex-direction: column;
     opacity: 0;
-    transform: translateX(40px);
+    transform: translateX(0);
     transition: opacity 0.5s cubic-bezier(0.22, 1, 0.36, 1),
         transform 0.5s cubic-bezier(0.22, 1, 0.36, 1);
     pointer-events: none;
@@ -1272,9 +1248,24 @@ body {
     pointer-events: auto;
 }
 
-.testimonial__slide.exit {
+.testimonial__slide.exit-left {
     opacity: 0;
     transform: translateX(-40px);
+}
+
+.testimonial__slide.exit-right {
+    opacity: 0;
+    transform: translateX(40px);
+}
+
+.testimonial__slide.enter-left {
+    opacity: 0;
+    transform: translateX(-40px);
+}
+
+.testimonial__slide.enter-right {
+    opacity: 0;
+    transform: translateX(40px);
 }
 
 .testimonial__quote {
@@ -1311,16 +1302,12 @@ body {
     align-items: center;
     justify-content: center;
     transition: background 0.2s, color 0.2s;
-}
-
-.testimonial__btn:hover {
-    background: var(--text);
-    color: #fff;
+    background: white;
 }
 
 .testimonial__btn svg {
-    width: 14px;
-    height: 14px;
+    width: 28px;
+    height: 28px;
     stroke: currentColor;
     fill: none;
     stroke-width: 1.5;
@@ -1383,10 +1370,6 @@ body {
     text-underline-offset: 5px;
     margin-top: 40px;
     transition: opacity 0.2s;
-}
-
-.blog-panel__link:hover {
-    opacity: 0.5;
 }
 
 /* ── KEYFRAMES ── */

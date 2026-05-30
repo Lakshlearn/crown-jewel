@@ -262,151 +262,63 @@
 
     </div>
 
-
-
-
-
-    <!-- PROCESS LIST -->
+        <!-- PROCESS LIST -->
+    <?php
+    $processSteps = [
+        [
+            'title' => 'UNDERSTANDING & REQUIREMENT MAPPING',
+            'description' => 'We begin by understanding your vision, space, and functional needs to define a personalized design direction.'
+        ],
+        [
+            'title' => 'SITE MEASUREMENT',
+            'description' => 'Precise on-site measurements ensure accuracy and seamless integration with your space.'
+        ],
+        [
+            'title' => 'MATERIAL, COLOUR & FINISH SELECTION',
+            'description' => 'Curated mood boards guide the selection of colours, textures, and finishes to achieve depth and luxury.'
+        ],
+        [
+            'title' => '3D DESIGN & APPROVAL',
+            'description' => 'We present detailed drawings and 3D visualizations for your approval before moving ahead.'
+        ],
+        [
+            'title' => 'PRODUCTION & CRAFTING',
+            'description' => 'Expert craftsmanship and advanced techniques bring your design to life with exceptional quality.'
+        ],
+        [
+            'title' => 'QUALITY CHECK & PRE-INSTALLATION',
+            'description' => 'Each element undergoes strict quality checks to ensure perfection before dispatch.'
+        ],
+        [
+            'title' => 'INSTALLATION & FINAL STYLING',
+            'description' => 'We execute precise installation and finishing touches to deliver a flawless space.'
+        ]
+    ];
+    ?>
     <div class="process-list">
+        <?php foreach ($processSteps as $index => $step): ?>
+            <div class="process-item">
 
-        <!-- ITEM 1 -->
-        <div class="process-item">
+                <div class="process-number">
+                    <?php echo str_pad($index + 1, 2, '0', STR_PAD_LEFT); ?>
+                </div>
 
-            <div class="process-number">
-                01
+                <div class="process-title">
+                    <?php echo $step['title']; ?>
+                </div>
+
+                <div class="process-description">
+                    <?php echo $step['description']; ?>
+                </div>
+
             </div>
-
-            <div class="process-title">
-                UNDERSTANDING & REQUIREMENT MAPPING
-            </div>
-
-            <div class="process-description">
-                We begin by understanding your vision, space, and functional needs to define a personalized design direction.
-            </div>
-
-        </div>
-
-
-
-
-
-        <!-- ITEM 2 -->
-        <div class="process-item">
-
-            <div class="process-number">
-                02
-            </div>
-
-            <div class="process-title">
-                SITE MEASUREMENT
-            </div>
-
-            <div class="process-description">
-                Precise on-site measurements ensure accuracy and seamless integration with your space.
-            </div>
-
-        </div>
-
-
-
-
-
-        <!-- ITEM 3 -->
-        <div class="process-item">
-
-            <div class="process-number">
-                03
-            </div>
-
-            <div class="process-title">
-                MATERIAL, COLOUR & FINISH SELECTION
-            </div>
-
-            <div class="process-description">
-                Curated mood boards guide the selection of colours, textures, and finishes to achieve 
-                depth and luxury.
-            </div>
-
-        </div>
-
-
-        <!-- ITEM 4 -->
-        <div class="process-item">
-
-            <div class="process-number">
-                04
-            </div>
-
-            <div class="process-title">
-                3D DESIGN & APPROVAL
-            </div>
-
-            <div class="process-description">
-                We present detailed drawings and 3D visualizations for your approval before moving ahead.
-            </div>
-
-        </div>
-
-
-        <!-- ITEM 5 -->
-        <div class="process-item">
-
-            <div class="process-number">
-                05
-            </div>
-
-            <div class="process-title">
-                PRODUCTION & CRAFTING
-            </div>
-
-            <div class="process-description">
-                Expert craftsmanship and advanced techniques bring your design to life with exceptional quality.
-            </div>
-
-        </div>
-
-
-        <!-- ITEM 6 -->
-        <div class="process-item">
-
-            <div class="process-number">
-                06
-            </div>
-
-            <div class="process-title">
-                QUALITY CHECK & PRE-INSTALLATION
-            </div>
-
-            <div class="process-description">
-                Each element undergoes strict quality checks to ensure perfection before dispatch.
-            </div>
-
-        </div>
-
-        <!-- ITEM 7 -->
-        <div class="process-item">
-
-            <div class="process-number">
-                07
-            </div>
-
-            <div class="process-title">
-                INSTALLATION & FINAL STYLING
-            </div>
-
-            <div class="process-description">
-                We execute precise installation and finishing touches to deliver a flawless space.
-            </div>
-
-        </div>
-
+        <?php endforeach; ?>
     </div>
 
 
 
 
-
-    <!-- BUTTON -->
+<!-- BUTTON -->
     <div class="process-button">
 
         <a href="#" class="shrink-underline">
@@ -543,7 +455,7 @@
     <h3 class="blog-panel__heading">
       The Modern Gentleman's Guide to Choosing and Caring for the Perfectly Fitted Suit
     </h3>
-    <a class="blog-panel__link" href="#">Read more</a>
+    <a class="blog-panel__link shrink-underline" href="#">Read more</a>
   </div>
  
 </section>

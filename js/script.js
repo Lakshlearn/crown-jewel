@@ -42,6 +42,7 @@ categoryCards.forEach((card) => {
     card.addEventListener('mouseenter', () => {
 
         const image = card.querySelector('img');
+        if (!image) return;
 
         image.style.transform = 'scale(1.12)';
 
@@ -50,6 +51,7 @@ categoryCards.forEach((card) => {
     card.addEventListener('mouseleave', () => {
 
         const image = card.querySelector('img');
+        if (!image) return;
 
         image.style.transform = 'scale(1)';
 
@@ -57,26 +59,62 @@ categoryCards.forEach((card) => {
 
 });
 
-
+function initTestimonialCarousel() {
     const track = document.getElementById('testimonialTrack');
+    if (!track) return;
+
     const slides = Array.from(track.querySelectorAll('.testimonial__slide'));
-    let current = 0;
- 
-    function goTo(index) {
-      // Exit current
-      slides[current].classList.remove('active');
-      slides[current].classList.add('exit');
-      setTimeout(() => slides[current].classList.remove('exit'), 500);
- 
-      current = (index + slides.length) % slides.length;
-      slides[current].classList.add('active');
+    if (!slides.length) return;
+
+    let currentSlide = slides.findIndex((slide) => slide.classList.contains('active'));
+    if (currentSlide === -1) currentSlide = 0;
+
+    slides.forEach((slide, index) => {
+        slide.classList.toggle('active', index === currentSlide);
+        slide.classList.remove('exit');
+    });
+
+    function goTo(index, direction) {
+        const nextIndex = (index + slides.length) % slides.length;
+        if (nextIndex === currentSlide) return;
+
+        const outgoing = slides[currentSlide];
+        const incoming = slides[nextIndex];
+        const exitClass = direction === 'next' ? 'exit-left' : 'exit-right';
+        const enterClass = direction === 'next' ? 'enter-right' : 'enter-left';
+
+        outgoing.classList.remove('active');
+        outgoing.classList.add(exitClass);
+
+        incoming.classList.add(enterClass);
+        requestAnimationFrame(() => {
+            incoming.classList.add('active');
+            incoming.classList.remove(enterClass);
+        });
+
+        currentSlide = nextIndex;
+
+        window.setTimeout(() => {
+            outgoing.classList.remove('exit-left', 'exit-right');
+        }, 500);
     }
- 
-    document.getElementById('prevBtn').addEventListener('click', () => goTo(current - 1));
-    document.getElementById('nextBtn').addEventListener('click', () => goTo(current + 1));
+
+    const prevBtn = document.getElementById('prevBtn');
+    const nextBtn = document.getElementById('nextBtn');
+
+    if (prevBtn) {
+        prevBtn.addEventListener('click', () => goTo(currentSlide - 1, 'prev'));
+    }
+
+    if (nextBtn) {
+        nextBtn.addEventListener('click', () => goTo(currentSlide + 1, 'next'));
+    }
+}
+
+initTestimonialCarousel();
 
 
-    const igSection = document.getElementById('igSection');
+const igSection = document.getElementById('igSection');
 const bgCircle = document.querySelector('.ig-bg-circle');
 
 window.addEventListener('scroll', () => {
