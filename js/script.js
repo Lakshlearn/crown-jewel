@@ -74,3 +74,27 @@ categoryCards.forEach((card) => {
  
     document.getElementById('prevBtn').addEventListener('click', () => goTo(current - 1));
     document.getElementById('nextBtn').addEventListener('click', () => goTo(current + 1));
+
+
+    const igSection = document.getElementById('igSection');
+const bgCircle = document.querySelector('.ig-bg-circle');
+
+window.addEventListener('scroll', () => {
+
+    if (!igSection || !bgCircle) return;
+
+    const rect = igSection.getBoundingClientRect();
+    const windowHeight = window.innerHeight;
+
+    // Detect section visibility
+    const visible = 1 - (rect.top / windowHeight);
+
+    // Scale limits
+    let scale = visible * 8;
+
+    // Clamp values
+    scale = Math.max(1, Math.min(scale, 12));
+
+    bgCircle.style.transform =
+        `translate(-50%, -50%) scale(${scale})`;
+});

@@ -33,35 +33,35 @@
             <!-- SMALL LEFT -->
             <div class="media-card side-card">
                 <video autoplay muted loop playsinline>
-                    <source src="videos/video1.mp4" type="video/mp4">
+                    <source src="videos/frontmov2.mp4" type="video/mp4">
                 </video>
             </div>
 
-            <!-- LEFT ARCH -->
+            <!-- LEFT ARCH "C:\xampp\htdocs\crownweb\videos\frontmov3.MOV" -->
             <div class="media-card arch-top">
                 <video autoplay muted loop playsinline>
-                    <source src="videos/video2.mp4" type="video/mp4">
+                    <source src="videos/frontmov3.MOV" type="video/mp4">
                 </video>
             </div>
 
             <!-- CENTER CIRCLE -->
             <div class="media-card circle-card">
                 <video autoplay muted loop playsinline>
-                    <source src="videos/video3.mp4" type="video/mp4">
+                    <source src="videos/frontmov4.MOV" type="video/mp4">
                 </video>
             </div>
 
             <!-- RIGHT ARCH -->
             <div class="media-card arch-bottom">
                 <video autoplay muted loop playsinline>
-                    <source src="videos/video4.mp4" type="video/mp4">
+                    <source src="videos/frontmov5.MOV" type="video/mp4">
                 </video>
             </div>
 
             <!-- SMALL RIGHT -->
             <div class="media-card side-card">
                 <video autoplay muted loop playsinline>
-                    <source src="videos/video5.mp4" type="video/mp4">
+                    <source src="videos/frontmovie1.MOV" type="video/mp4">
                 </video>
             </div>
 
@@ -71,35 +71,40 @@
 
             <!-- DUPLICATE FOR INFINITE LOOP -->
 
-            <div class="media-card side-card">
+             <div class="media-card side-card">
                 <video autoplay muted loop playsinline>
-                    <source src="videos/video1.mp4" type="video/mp4">
+                    <source src="videos/frontmov2.mp4" type="video/mp4">
                 </video>
             </div>
 
+            <!-- LEFT ARCH "C:\xampp\htdocs\crownweb\videos\frontmov3.MOV" -->
             <div class="media-card arch-top">
                 <video autoplay muted loop playsinline>
-                    <source src="videos/video2.mp4" type="video/mp4">
+                    <source src="videos/frontmov3.MOV" type="video/mp4">
                 </video>
             </div>
 
+            <!-- CENTER CIRCLE -->
             <div class="media-card circle-card">
                 <video autoplay muted loop playsinline>
-                    <source src="videos/video3.mp4" type="video/mp4">
+                    <source src="videos/frontmov4.MOV" type="video/mp4">
                 </video>
             </div>
 
+            <!-- RIGHT ARCH -->
             <div class="media-card arch-bottom">
                 <video autoplay muted loop playsinline>
-                    <source src="videos/video4.mp4" type="video/mp4">
+                    <source src="videos/frontmov5.MOV" type="video/mp4">
                 </video>
             </div>
 
+            <!-- SMALL RIGHT -->
             <div class="media-card side-card">
                 <video autoplay muted loop playsinline>
-                    <source src="videos/video5.mp4" type="video/mp4">
+                    <source src="videos/frontmovie1.MOV" type="video/mp4">
                 </video>
             </div>
+
 
         </div>
 
@@ -108,7 +113,7 @@
 </section>
 
 
-//section 2
+<!-- section 2 -->
 
 <section class="about-section">
 
@@ -146,12 +151,14 @@
 
             <!-- BIG IMAGE -->
             <div class="big-image zoom-scroll">
-                <img src="images/about-main.jpg" alt="">
+                <img src="images/POG.png " alt="">
             </div>
 
             <!-- SMALL FLOATING IMAGE -->
             <div class="small-image zoom-scroll">
-                <img src="images/about-small.jpg" alt="">
+                 <video autoplay muted loop playsinline>
+                    <source src="videos/MOV1.MOV" type="video/mp4">
+                </video>
             </div>
 
         </div>
@@ -161,7 +168,7 @@
 </section>
 
 
-// section 3
+<!-- section 3 -->
 <section class="category-section">
 
     <!-- HEADING -->
@@ -180,11 +187,11 @@
         <div class="category-card">
 
             <div class="image-wrapper">
-                <img src="images/category1.jpg" alt="">
+                <img src="images/catimg1.png" alt="">
             </div>
 
             <a href="#" class="category-link">
-                CUSTOM WEDDING SUITS
+                SEMI PRECIOUS STONES
             </a>
 
         </div>
@@ -547,6 +554,62 @@
 
     </div>
 
+</section>
+
+<!-- ════ PART 6: instagram  ════ -->
+
+<?php
+/**
+ * Instagram Section
+ * Replace the image URLs dynamically from Instagram API if needed.
+ */
+
+$instagramPosts = [
+    [
+        'image' => 'https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?q=80&w=1200&auto=format&fit=crop',
+        'link'  => '#'
+    ],
+    [
+        'image' => 'https://images.unsplash.com/photo-1496747611176-843222e1e57c?q=80&w=1200&auto=format&fit=crop',
+        'link'  => '#'
+    ],
+    [
+        'image' => 'https://images.unsplash.com/photo-1483985988355-763728e1935b?q=80&w=1200&auto=format&fit=crop',
+        'link'  => '#'
+    ]
+];
+?>
+
+<section class="ig-section" id="igSection">
+
+    <div class="ig-bg-circle"></div>
+
+    <div class="ig-container">
+
+        <div class="ig-heading">
+            <span class="ig-subtitle">INSTAGRAM</span>
+
+            <h2>
+                JOIN THE ADVENTURE <br>
+                @BESPOKEINNOVE
+            </h2>
+
+            <a href="https://instagram.com/bespokeinnove" target="_blank" class="ig-follow-btn">
+                FOLLOW US
+            </a>
+        </div>
+
+        <div class="ig-grid">
+
+            <?php foreach($instagramPosts as $post): ?>
+                <a href="<?php echo $post['link']; ?>" class="ig-card" target="_blank">
+                    <img src="<?php echo $post['image']; ?>" alt="Instagram Post">
+                </a>
+            <?php endforeach; ?>
+
+        </div>
+
+    </div>
 </section>
 
     <?php include 'includes/footer.php'; ?>

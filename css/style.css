@@ -608,7 +608,7 @@ body{
     background:#fff;
 }
 
-.small-image img{
+.small-image video{
     width:100%;
     height:100%;
     object-fit:cover;
@@ -805,7 +805,7 @@ body{
     text-decoration:none;
     color:#111;
 
-    font-size:12px;
+    font: size 17px;
     letter-spacing:1.5px;
 
     border-bottom:1px solid #111;
@@ -1470,4 +1470,152 @@ body{
 
     transition:transform 0.2s linear;
     will-change:transform;
+}
+
+/* =========================
+   INSTAGRAM SECTION
+========================= */
+
+.ig-section {
+    position: relative;
+    overflow: hidden;
+    padding: 140px 0 120px;
+    background: #f4f1ef;
+}
+
+.ig-container {
+    width: 90%;
+    max-width: 1650px;
+    margin: auto;
+    position: relative;
+    z-index: 2;
+}
+
+/* EXPANDING BG CIRCLE */
+
+.ig-bg-circle {
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    background: #e7e2de;
+    border-radius: 50%;
+    left: 50%;
+    top: 52%;
+    transform: translate(-50%, -50%) scale(1);
+    z-index: 1;
+    transition: transform 0.15s linear;
+    will-change: transform;
+}
+
+/* HEADING */
+
+.ig-heading {
+    text-align: center;
+    margin-bottom: 80px;
+    position: relative;
+    z-index: 3;
+}
+
+.ig-subtitle {
+    display: block;
+    font-size: 14px;
+    letter-spacing: 2px;
+    color: #111;
+    margin-bottom: 22px;
+}
+
+.ig-heading h2 {
+    font-size: 38px;
+    line-height: 1.1;
+    font-weight: 300;
+    letter-spacing: -1px;
+    color: #111;
+    margin-bottom: 35px;
+    text-transform: uppercase;
+}
+
+.ig-follow-btn {
+    display: inline-block;
+    font-size: 14px;
+    letter-spacing: 1px;
+    color: #111;
+    text-decoration: none;
+    border-bottom: 1px solid #111;
+    padding-bottom: 5px;
+    transition: 0.3s ease;
+}
+
+.ig-follow-btn:hover {
+    opacity: 0.6;
+}
+
+/* GRID */
+
+.ig-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 24px;
+    position: relative;
+    z-index: 3;
+}
+
+.ig-card {
+    position: relative;
+    overflow: hidden;
+    display: block;
+}
+
+.ig-card img {
+    width: 100%;
+    height: 620px;
+    object-fit: cover;
+    display: block;
+    transition: transform 0.6s ease;
+}
+
+.ig-card:hover img {
+    transform: scale(1.05);
+}
+
+/* RESPONSIVE */
+
+@media (max-width: 1200px) {
+
+    .ig-heading h2 {
+        font-size: 52px;
+    }
+
+    .ig-card img {
+        height: 500px;
+    }
+}
+
+@media (max-width: 991px) {
+
+    .ig-section {
+        padding: 100px 0;
+    }
+
+    .ig-heading h2 {
+        font-size: 42px;
+    }
+
+    .ig-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .ig-card img {
+        height: 550px;
+    }
+}
+
+@media (max-width: 767px) {
+
+    .ig-heading h2 {
+        font-size: 32px;
+    }
+
+    .ig-card img {
+        height: 420px;
+    }
 }
