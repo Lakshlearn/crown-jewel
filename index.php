@@ -414,9 +414,9 @@
   <!-- Product card 2 -->
   <div class="product-card">
     <div class="product-card__img">
-      <!--
-        Replace with: <img src="wool-blazer.jpg" alt="Suit blazer in stretch wool" />
-      -->
+          <!-- Image  -->
+     <div class="prod-img-3">
+      </div>
       <div class="ph">
         <svg class="ph-icon" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
           <path d="M6 2l-4 5v15h16V7l-4-5"/><path d="M9 2v4"/><path d="M15 2v4"/>
@@ -481,9 +481,9 @@
  
   <!-- Center model -->
   <div class="lower-model">
-    <!--
-      Replace with: <img src="gentleman-model.jpg" alt="The Modern Gentleman" />
-    -->
+        <!-- Image  -->
+     <div class="prod-img-4">
+      </div>
     <div class="ph">
       <svg class="ph-icon" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
         <circle cx="12" cy="7" r="4"/><path d="M5.5 20a6.5 6.5 0 0 1 13 0"/>
