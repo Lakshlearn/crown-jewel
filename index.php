@@ -378,10 +378,9 @@
  
   <!-- Hero model photo -->
   <div class="products-hero">
-    <!--
-      Replace with: <img src="model-hero.jpg" alt="Model in bespoke suit" />
-      and remove the .ph div
-    -->
+    <!-- Image -->
+      <div class="prod-img-1">
+      </div>
     <div class="ph">
       <svg class="ph-icon" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
         <circle cx="12" cy="7" r="4"/><path d="M5.5 20a6.5 6.5 0 0 1 13 0"/>
@@ -393,9 +392,9 @@
   <!-- Product card 1 -->
   <div class="product-card">
     <div class="product-card__img">
-      <!--
-        Replace with: <img src="blazer.jpg" alt="Slim Fit Single Breasted Moleskin Blazer" />
-      -->
+        <!-- Image  -->
+     <div class="prod-img-2">
+      </div>
       <div class="ph">
         <svg class="ph-icon" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
           <path d="M6 2l-4 5v15h16V7l-4-5"/><path d="M9 2s1 3 3 3 3-3 3-3"/>
