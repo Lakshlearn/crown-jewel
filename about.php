@@ -18,7 +18,7 @@
     </div>
 
     <div class="about-image-wrap">
-        <div class="about-image-parallax">
+        <div class="t-image-parallax">
             <img
                 src="./images/tubabout.png"
                 alt="About Image"
