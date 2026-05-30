@@ -185,8 +185,7 @@
         <!-- CARD 1 -->
         <div class="category-card">
 
-            <div class="image-wrapper">
-                <img src="images/catimg1.png" alt="">
+            <div class="fit-img-1">
             </div>
 
             <a href="#" class="category-link">
@@ -202,8 +201,7 @@
         <!-- CARD 2 -->
         <div class="category-card">
 
-            <div class="image-wrapper">
-                <img src="images/category2.jpg" alt="">
+            <div class="fit-img-2">
             </div>
 
             <a href="#" class="category-link">
@@ -219,8 +217,7 @@
         <!-- CARD 3 -->
         <div class="category-card tall-card">
 
-            <div class="image-wrapper">
-                <img src="images/category3.jpg" alt="">
+            <div class="fit-img-3">
             </div>
 
             <a href="#" class="category-link">
@@ -236,8 +233,7 @@
         <!-- CARD 4 -->
         <div class="category-card">
 
-            <div class="image-wrapper">
-                <img src="images/category4.jpg" alt="">
+            <div class="fit-img-4">
             </div>
 
             <a href="#" class="category-link">

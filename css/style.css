@@ -1793,3 +1793,48 @@ body {
         transform-origin: center;
     }
 }
+
+
+/* Div Images */
+
+/* Personal Fit */
+.fit-img-1 {
+    width: 450px;
+    height: 550px;
+    overflow: hidden;
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url("../images/catimg1.png");
+}
+.fit-img-2 {
+    width: 450px;
+    height: 550px;
+    overflow: hidden;
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url("../images/cat-img-2.png");
+}
+.fit-img-3 {
+    width: 450px;
+    height: 650px;
+    overflow: hidden;
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url("../images/cat-img-8.png");
+}
+.fit-img-4 {
+    width: 450px;
+    height: 550px;
+    overflow: hidden;
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url("../images/cat-img-9.png");
+}
