@@ -1,8 +1,9 @@
-<?php include 'includes/constants.php'; ?>
+<?php require_once __DIR__ . '/includes/constants.php'; ?>
+<!DOCTYPE html>
 <html>
-<head>
-    <title>Crown Web</title>
-    <link rel="stylesheet" href='../css/style.css'>   
+    <head>
+        <title>Crown Web</title>
+        <link rel="stylesheet" href='css/style.css'>
 </head>
 <body>
     <?php include 'includes/header.php'; ?>
@@ -35,7 +36,7 @@
             <!-- SMALL LEFT -->
             <div class="media-card side-card">
                 <video autoplay muted loop playsinline>
-                    <source src="videos/frontmov2.mp4" type="video/mp4">
+                        <source src="videos/frontmov2.mp4" type="video/mp4">
                 </video>
             </div>
 
@@ -264,11 +265,8 @@
     </div>
 
         <!-- PROCESS LIST -->
-    <?php
-    $processSteps = $PROCESS_STEPS;
-    ?>
     <div class="process-list">
-        <?php foreach ($processSteps as $index => $step): ?>
+        <?php foreach ($PROCESS_STEPS as $index => $step): ?>
             <div class="process-item">
 
                 <div class="process-number">
@@ -369,21 +367,18 @@
 <!-- ════ PART 2: TESTIMONIAL + BLOG ════ -->
 <section class="lower-section">
  
-  <!-- Testimonial CAROUSEL -->
-  <?php
-  $testimonials = $TESTIMONIALS;
-  ?>
-  <div class="testimonial">
-    <div class="testimonial__track" id="testimonialTrack">
- 
-      <?php foreach ($testimonials as $index => $testimonial): ?>
+    <!-- Testimonial CAROUSEL -->
+    <div class="testimonial">
+        <div class="testimonial__track" id="testimonialTrack">
+
+            <?php foreach ($TESTIMONIALS as $index => $testimonial): ?>
         <div class="testimonial__slide <?php echo $index === 0 ? 'active' : ''; ?>">
           <blockquote class="testimonial__quote">
             "<?php echo $testimonial['quote']; ?>"
           </blockquote>
           <p class="testimonial__author"><?php echo $testimonial['author']; ?></p>
         </div>
-      <?php endforeach; ?>
+    <?php endforeach; ?>
  
     </div>
  
@@ -474,16 +469,6 @@
 </section>
 
 <!-- ════ PART 6: instagram  ════ -->
-
-<?php
-/**
- * Instagram Section
- * Replace the image URLs dynamically from Instagram API if needed.
- */
-
-$instagramPosts = $INSTAGRAM_POSTS;
-?>
-
 <section class="ig-section" id="igSection">
 
     <div class="ig-bg-circle"></div>
@@ -507,7 +492,7 @@ $instagramPosts = $INSTAGRAM_POSTS;
 
         <div class="ig-grid">
 
-            <?php foreach($instagramPosts as $post): ?>
+            <?php foreach($INSTAGRAM_POSTS as $post): ?>
                 <a href="<?php echo $post['link']; ?>" class="ig-card" target="_blank">
                     <img src="<?php echo $post['image']; ?>" alt="Instagram Post">
                 </a>

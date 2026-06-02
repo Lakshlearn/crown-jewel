@@ -6,9 +6,9 @@
     <link rel="stylesheet" href='../css/style.css'> 
     <link rel="stylesheet" href='../css/about.css'>  
     <title>About Us : Crown Jewels</title>
-    <?php include 'includes/header.php'; ?> 
 </head>
 <body>
+    <?php include '../includes/header.php'; ?> 
     <section class="about-section-one">
     
     <div class="about-header">
@@ -21,7 +21,7 @@
     <div class="about-image-wrap">
         <div class="about-image-parallax">
             <img
-                src="./images/bg-img-2.png"
+                src="../images/bg-img-2.png"
                 alt="About Image"
             >
         </div>
@@ -34,7 +34,7 @@
     <div class="story-container">
 
         <div class="story-image story-image-left">
-            <img src="./images/cat-img-9.png" alt="Story Image">
+            <img src="../images/cat-img-9.png" alt="Story Image">
         </div>
 
         <div class="story-content">
@@ -50,12 +50,12 @@
         </div>
 
         <div class="story-image story-image-right">
-            <img src="./images/prod-2.png" alt="Story Image">
+            <img src="../images/prod-2.png" alt="Story Image">
         </div>
 
     </div>
 </section>
-<?php include 'includes/footer.php'; ?>
-<script src="js/script.js"></script>
+<?php include '../includes/footer.php'; ?>
+<script src="../js/script.js"></script>
 </body>
 </html>

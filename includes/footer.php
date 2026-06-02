@@ -3,7 +3,7 @@
         <div class="appointment-content">
 
             <div class="dress-icon">
-                <img src="dress-icon.svg" alt="Dress Icon">
+                <img src="../images/dress-icon.svg" alt="Dress Icon">
             </div>
 
             <h2>INTERIOR THAT AFFIRM YOU</h2>

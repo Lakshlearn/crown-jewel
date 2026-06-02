@@ -6,10 +6,10 @@
     </div>
 
     <nav class="nav">
-        <a href="index.php">H.</a>
-        <a href="about.php">ABOUT US</a>
-        <a href="#">EXPLORE</a>
-        <a href="#">CONTACT</a>
+        <a href="/crownweb/index.php">H.</a>
+        <a href="/crownweb/pages/about.php">ABOUT US</a>
+        <a href="/crownweb/pages/explore.php">EXPLORE</a>
+        <a href="/crownweb/pages/contact.php">CONTACT</a>
     </nav>
 
     <div class="icons">
