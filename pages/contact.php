@@ -109,9 +109,9 @@
         <section class="newsletter-footer">
 
             <div class="brand-logo">
-                <img src="logo.png" alt="Innové Couture">
-                <!-- Or use text if you don't have the logo image -->
-                <!-- <h2>INNOVÉ COUTURE</h2> -->
+                <h2>
+                    CROWN JEWELS
+                </h2>
             </div>
 
             <div class="newsletter-box">

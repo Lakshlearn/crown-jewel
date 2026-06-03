@@ -82,15 +82,15 @@ main {
 /* =========================== */
 .form-container {
     max-width: 800px;
-    margin: 40px auto;
+    margin: 45px auto;
     padding: 20px;
 }
 
 h1 {
     text-align: center;
-    font-size: 18px;
+    font-size: 20px;
     font-weight: 400;
-    line-height: 1.5;
+    line-height: 1.4em;
     text-transform: uppercase;
     margin-bottom: 50px;
     letter-spacing: 0.5px;
@@ -118,7 +118,7 @@ input,
 textarea {
     width: 100%;
     border: 1px solid #d6d6d6;
-    background: #f7f7f7;
+    background: transparent;
     padding: 12px;
     font-size: 14px;
     outline: none;
@@ -131,7 +131,7 @@ input {
 textarea {
     resize: vertical;
     min-height: 120px;
-    border: 1px solid #000;
+    border: 1px solid #d6d6d6;
 }
 
 .full-width {
@@ -149,10 +149,12 @@ button {
     letter-spacing: 1px;
     cursor: pointer;
     text-transform: uppercase;
+    transition: color 0.3s ease, background 0.3s ease;
 }
 
 button:hover {
-    opacity: 0.9;
+    color: #000;
+    background: transparent;
 }
 
 @media (max-width: 768px) {
@@ -176,8 +178,8 @@ button:hover {
 /*     Newsletter Footer Styles     */
 /* ================================ */
 .newsletter-footer {
-    background: #f3f3f3;
-    padding: 60px 20px 0px;
+    /* background: #f3f3f3; */
+    padding: 60px 20px 80px;
 }
 
 .brand-logo {
@@ -185,11 +187,6 @@ button:hover {
     margin-bottom: 30px;
 }
 
-.brand-logo img {
-    max-width: 850px;
-    width: 100%;
-    height: auto;
-}
 
 /* If using text instead of image */
 .brand-logo h2 {
@@ -275,7 +272,8 @@ button:hover {
     align-items: center;
 
     padding: 35px 50px;
-    font-size: 15px;
+    font-size: 12px;
+    font-weight: 400;
 }
 
 .footer-left {
