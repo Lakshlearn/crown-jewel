@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Gallery</title>
 
-    <link rel="stylesheet" href="gallery.css">
+    <link rel="stylesheet" href="../css/components/gallery.css">
 </head>
 <body>
 
@@ -37,11 +37,7 @@
 
         <div class="gallery-grid">
 
-            <?php for($i = 1; $i <= 16; $i++): ?>
-                <div class="gallery-item reveal">
-                    <img src="images/gallery/<?php echo $i; ?>.jpg" alt="Gallery Image">
-                </div>
-            <?php endfor; ?>
+            <img src="../images/gallery/image1.png" alt="Gallery Image">
 
         </div>
 
