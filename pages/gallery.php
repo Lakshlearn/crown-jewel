@@ -44,7 +44,7 @@
             // Use a root-relative path so the image resolves correctly
             // regardless of how this page is served/embedded.
             $galleryImages = [
-                "../images/gallery/image1.png",
+                "../images/gallery/red_carnelian.png",
             ];
 
             foreach ($galleryImages as $image):
