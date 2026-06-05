@@ -211,7 +211,7 @@
                 </div>
 
                 <a href="#" class="category-link text-md shrink-underline">
-                    BESPOKE WOMEN'S SUITS
+                    Inlays
                 </a>
 
             </div>
@@ -221,12 +221,13 @@
 
 
             <!-- CARD 3 -->
-            <div class="category-card tall-card">
+            <div class="category-card">
 
-                <div class="fit-img-3">
+                <div class="fit-img-1">
                 </div>
+
                 <a href="#" class="category-link text-md shrink-underline">
-                    BESPOKE COATS
+                    Waterjet Flooring
                 </a>
 
             </div>
@@ -242,7 +243,83 @@
                 </div>
 
                 <a href="#" class="category-link text-md shrink-underline">
-                    BESPOKE BOW TIES
+                    CNC Carving Panels 
+                </a>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- section 3 part 2  -->
+    <section class="category-section">
+
+
+
+
+
+
+        <!-- CATEGORY GRID -->
+        <div class="category-grid">
+
+            <!-- CARD 1 -->
+            <div class="category-card">
+
+                <div class="fit-img-1">
+                </div>
+
+                <a href="#" class="category-link text-md shrink-underline">
+                    Italian Glass
+                </a>
+
+            </div>
+
+
+
+
+
+            <!-- CARD 2 -->
+            <div class="category-card">
+
+                <div class="fit-img-2">
+                </div>
+
+                <a href="#" class="category-link text-md shrink-underline">
+                    Furniture in Marble 
+                </a>
+
+            </div>
+
+
+
+
+
+            <!-- CARD 3 -->
+            <div class="category-card">
+
+                <div class="fit-img-1">
+                </div>
+
+                <a href="#" class="category-link text-md shrink-underline">
+                    Articles In Precious Stones
+                </a>
+
+            </div>
+
+
+
+
+
+            <!-- CARD 4 -->
+            <div class="category-card">
+
+                <div class="fit-img-4">
+                </div>
+
+                <a href="#" class="category-link text-md shrink-underline">
+                    Metal with Precious Stone
                 </a>
 
             </div>
