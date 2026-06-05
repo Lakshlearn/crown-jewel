@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,6 +8,7 @@
 
     <link rel="stylesheet" href="../css/components/gallery.css">
 </head>
+
 <body>
 
     <!-- Hero Section -->
@@ -39,22 +41,23 @@
 
             <?php
 
-$galleryImages = [
-    'image1.png',
-];
+            // Use a root-relative path so the image resolves correctly
+            // regardless of how this page is served/embedded.
+            $galleryImages = [
+                "../images/gallery/image1.png",
+            ];
 
-foreach($galleryImages as $image):
-?>
-
-<div class="gallery-item reveal">
-    <img src="../images/gallery/<?php echo $image; ?>" alt="">
-</div>
-
-<?php endforeach; ?>
+            foreach ($galleryImages as $image):
+            ?>
+                <div class="gallery-item reveal">
+                    <img src="<?php echo $image; ?>" alt="Gallery Image">
+                </div>
+            <?php endforeach; ?>
 
         </div>
 
     </section>
 
 </body>
+
 </html>
