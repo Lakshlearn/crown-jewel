@@ -37,13 +37,24 @@
 
         <div class="gallery-grid">
 
-            <img src="../images/gallery/image1.png" alt="Gallery Image">
+            <?php
+
+$galleryImages = [
+    'image1.png',
+];
+
+foreach($galleryImages as $image):
+?>
+
+<div class="gallery-item reveal">
+    <img src="../images/gallery/<?php echo $image; ?>" alt="">
+</div>
+
+<?php endforeach; ?>
 
         </div>
 
     </section>
-
-<script src="gallery.js"></script>
 
 </body>
 </html>
