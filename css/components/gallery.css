@@ -119,7 +119,7 @@ body{
 
 /* Scroll Reveal */
 
-.reveal{
+/* .reveal{
     opacity:0;
     transform:translateY(70px);
     transition:
@@ -130,7 +130,7 @@ body{
 .reveal.active{
     opacity:1;
     transform:translateY(0);
-}
+} */
 
 /* Responsive */
 
