@@ -136,109 +136,109 @@ define('SEMI_PRECIOUS_STONES', [
 
 // Accessory Images
 define('ACCESSORIES', [
-    'images/accessories/ChatGPT Image Apr 15, 2026, 10_00_36 PM.png',
-    'images/accessories/for website (4).png',
-    'images/accessories/for website (5).png',
-    'images/accessories/for website (6).png',
-    'images/accessories/images (3).jpg',
-    'images/accessories/images (3).png',
-    'images/accessories/images for website (8).png',
-    'images/accessories/stone images (1).png',
-    'images/accessories/stone images (2).png',
+    'images/accessories/1.jpg',
+    'images/accessories/2.jpg',
+    'images/accessories/3.jpg',
+    'images/accessories/4.jpg',
+    'images/accessories/5.jpg',
+    'images/accessories/6.jpg',
+    'images/accessories/7.jpg',
+    'images/accessories/8.jpg',
+    'images/accessories/9.jpg',
 ]);
 
 // Article in Precious Stones Images
 define('ARTICLES_IN_PRECIOUS_STONES', [
-    'images/articles_in_precious_stones/1 (3).png',
-    'images/articles_in_precious_stones/10 (6).png',
-    'images/articles_in_precious_stones/ChatGPT Image Apr 15, 2026, 10_04_31 PM.png',
-    'images/articles_in_precious_stones/Elegant dining room with crystal chandelier.png',
-    'images/articles_in_precious_stones/Elegant living room with crystal art.png',
-    'images/articles_in_precious_stones/Elegant living room with labradorite table.png',
-    'images/articles_in_precious_stones/Elegant malachite and gold living room.png',
-    'images/articles_in_precious_stones/images (2).png',
-    'images/articles_in_precious_stones/images 100 (1).png',
-    'images/articles_in_precious_stones/images for website (2).png',
-    'images/articles_in_precious_stones/images for website (3).png',
-    'images/articles_in_precious_stones/images for website (6).png',
-    'images/articles_in_precious_stones/stone image (4).png',
+    'images/articles_in_precious_stones/10.jpg',
+    'images/articles_in_precious_stones/11.jpg',
+    'images/articles_in_precious_stones/12.jpg',
+    'images/articles_in_precious_stones/13.jpg',
+    'images/articles_in_precious_stones/14.jpg',
+    'images/articles_in_precious_stones/15.jpg',
+    'images/articles_in_precious_stones/16.jpg',
+    'images/articles_in_precious_stones/17.jpg',
+    'images/articles_in_precious_stones/18.jpg',
+    'images/articles_in_precious_stones/19.jpg',
+    'images/articles_in_precious_stones/20.jpg',
+    'images/articles_in_precious_stones/21.jpg',
+    'images/articles_in_precious_stones/22.jpg',
 ]);
 
 // CNC Carving Panels Images
 define('CNC_CARVING_PANELS', [
-    'images/cnc_carving_panels/1 (6).png',
-    'images/cnc_carving_panels/10 (2).png',
-    'images/cnc_carving_panels/imagess (1).png',
-    'images/cnc_carving_panels/imagess (2).png',
-    'images/cnc_carving_panels/imagess (3).png',
-    'images/cnc_carving_panels/imagess (4).png',
-    'images/cnc_carving_panels/wall.png',
+    'images/cnc_carving_panels/23.jpg',
+    'images/cnc_carving_panels/24.jpg',
+    'images/cnc_carving_panels/25.jpg',
+    'images/cnc_carving_panels/26.jpg',
+    'images/cnc_carving_panels/27.jpg',
+    'images/cnc_carving_panels/28.jpg',
+    'images/cnc_carving_panels/29.jpg',
 ]);
 
 // Furniture in Marble Images
 define('FURNITURE_IN_MARBLE', [
-    'images/furniture_in_marble/10 (3).png',
-    'images/furniture_in_marble/10 (4).png',
-    'images/furniture_in_marble/for website (1).png',
-    'images/furniture_in_marble/for website (2).png',
-    'images/furniture_in_marble/for website (3).png',
-    'images/furniture_in_marble/images (4).png',
-    'images/furniture_in_marble/images for website (4).png',
-    'images/furniture_in_marble/imagess (5).png',
-    'images/furniture_in_marble/imagess (6).png',
-    'images/furniture_in_marble/Luxurious marble bathroom with natural light.png',
+    'images/furniture_in_marble/30.png',
+    'images/furniture_in_marble/31.png',
+    'images/furniture_in_marble/32.png',
+    'images/furniture_in_marble/33.png',
+    'images/furniture_in_marble/34.png',
+    'images/furniture_in_marble/35.png',
+    'images/furniture_in_marble/36.png',
+    'images/furniture_in_marble/37.png',
+    'images/furniture_in_marble/38.png',
+    'images/furniture_in_marble/39.png',
 ]);
 
 // Inlay Images
 define('INLAY', [
-    'images/inlays/14.png',
-    'images/inlays/ChatGPT Image Apr 15, 2026, 09_56_35 PM.png',
-    'images/inlays/ChatGPT Image Apr 15, 2026, 10_06_22 PM.png',
-    'images/inlays/ChatGPT Image Apr 15, 2026, 10_15_15 PM.png',
-    'images/inlays/images for website (5).png',
-    'images/inlays/images for website (9).png',
-    'images/inlays/photos (6).png',
-    'images/inlays/stone image (2).png',
-    'images/inlays/stone image (3).png',
+    'images/inlays/40.jpg',
+    'images/inlays/41.jpg',
+    'images/inlays/42.jpg',
+    'images/inlays/43.jpg',
+    'images/inlays/44.jpg',
+    'images/inlays/45.jpg',
+    'images/inlays/46.jpg',
+    'images/inlays/47.jpg',
+    'images/inlays/48.jpg',
 ]);
 
 // Italian Glass Images
 define('ITALIAN_GLASS', [
-    'images/italian_glass/!crystal glass.jpg',
-    'images/italian_glass/!fluid marrone.jpg',
-    'images/italian_glass/1 (2).jpeg',
-    'images/italian_glass/glass 1.jpg',
-    'images/italian_glass/glass 2.jpg',
-    'images/italian_glass/glass 3.jpg',
-    'images/italian_glass/glass 4.jpg',
-    'images/italian_glass/images 100 (5).png',
-    'images/italian_glass/Screen Shot 2018-04-03 at 4.47.10 PM.png',
+    'images/italian_glass/49.jpg',
+    'images/italian_glass/50.jpg',
+    'images/italian_glass/51.jpg',
+    'images/italian_glass/52.jpg',
+    'images/italian_glass/53.jpg',
+    'images/italian_glass/54.jpg',
+    'images/italian_glass/55.jpg',
+    'images/italian_glass/56.jpg',
+    'images/italian_glass/57.jpg',
 ]);
 
 // Metal with Precious Stones Images
 define('METAL_WITH_PRECIOUS_STONES', [
-    'images/metal_with_precious_stones/images 100 (6).png',
+    'images/metal_with_precious_stones/m2p.jpeg',
 ]);
 
 // Semi-Precious Slabs Images
 define('SEMI_PRECIOUS_SLABS', [
-    'images/semi_precious_slabs/slabs (3).png',
-    'images/semi_precious_slabs/slabs (4).png',
-    'images/semi_precious_slabs/slabs (5).png',
-    'images/semi_precious_slabs/stone slabs (1).png',
-    'images/semi_precious_slabs/stone slabs (2).png',
-    'images/semi_precious_slabs/stone slabs (3).png',
+    'images/semi_precious_slabs/59.jpg',
+    'images/semi_precious_slabs/60.jpg',
+    'images/semi_precious_slabs/61.jpg',
+    'images/semi_precious_slabs/62.jpg',
+    'images/semi_precious_slabs/63.jpg',
+    'images/semi_precious_slabs/64.jpg',
 ]);
 
 // Waterjet Floorings Images
 define('WATERJET_FLOORINGS', [
-    'images/waterjet_floorings/1 (4).png',
-    'images/waterjet_floorings/10 (1).png',
-    'images/waterjet_floorings/images 100 (2).png',
-    'images/waterjet_floorings/images for website (1).png',
-    'images/waterjet_floorings/images for website (11).png',
-    'images/waterjet_floorings/revised photo (1).png',
-    'images/waterjet_floorings/waterjet (1).png',
-    'images/waterjet_floorings/waterjet (2).png',
-    'images/waterjet_floorings/waterjet (3).png',
+    'images/waterjet_floorings/65.jpg',
+    'images/waterjet_floorings/66.jpg',
+    'images/waterjet_floorings/67.jpg',
+    'images/waterjet_floorings/68.jpg',
+    'images/waterjet_floorings/69.jpg',
+    'images/waterjet_floorings/70.jpg',
+    'images/waterjet_floorings/71.jpg',
+    'images/waterjet_floorings/72.jpg',
+    'images/waterjet_floorings/73.jpg',
 ]);
