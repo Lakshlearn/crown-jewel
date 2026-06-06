@@ -56,7 +56,7 @@
 
             foreach ($galleryImages as $image):
             ?>
-                <div class="gallery-item reveal">
+                <div class="gallery-item">
                     <img src="<?php echo $image; ?>" alt="Gallery Image">
                 </div>
             <?php endforeach; ?>
