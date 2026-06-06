@@ -243,7 +243,7 @@
                 </div>
 
                 <a href="#" class="category-link text-md shrink-underline">
-                    CNC Carving Panels 
+                    CNC Carving Panels
                 </a>
 
             </div>
@@ -287,7 +287,7 @@
                 </div>
 
                 <a href="#" class="category-link text-md shrink-underline">
-                    Furniture in Marble 
+                    Furniture in Marble
                 </a>
 
             </div>
@@ -345,7 +345,7 @@
 
         <!-- PROCESS LIST -->
         <div class="process-list">
-            <?php foreach ($PROCESS_STEPS as $index => $step): ?>
+            <?php foreach (PROCESS_STEPS as $index => $step): ?>
                 <div class="process-item">
 
                     <div class="process-number">
@@ -454,7 +454,7 @@
         <div class="testimonial">
             <div class="testimonial__track" id="testimonialTrack">
 
-                <?php foreach ($TESTIMONIALS as $index => $testimonial): ?>
+                <?php foreach (TESTIMONIALS as $index => $testimonial): ?>
                     <div class="testimonial__slide <?php echo $index === 0 ? 'active' : ''; ?>">
                         <blockquote class="testimonial__quote">
                             "<?php echo $testimonial['quote']; ?>"
@@ -576,7 +576,7 @@
 
             <div class="ig-grid">
 
-                <?php foreach ($INSTAGRAM_POSTS as $post): ?>
+                <?php foreach (INSTAGRAM_POSTS as $post): ?>
                     <a href="<?php echo $post['link']; ?>" class="ig-card" target="_blank">
                         <img src="<?php echo $post['image']; ?>" alt="Instagram Post">
                     </a>
