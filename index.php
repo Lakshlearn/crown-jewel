@@ -407,9 +407,7 @@
                 </div>
             </div>
             <div class="product-card__info">
-                <p class="product-card__name text-md shrink-underline">
-                    Regular Fit Cotton Blend Shirt
-                </p>
+                
                 <div class="product-card__dots">
                     <div class="product-card__dot active"></div>
                     <div class="product-card__dot"></div>
@@ -432,7 +430,7 @@
                 </div>
             </div>
             <div class="product-card__info">
-                <p class="product-card__name text-md shrink-underline">Suit blazer in stretch wool</p>
+              
                 <div class="product-card__dots">
                     <div class="product-card__dot"></div>
                     <div class="product-card__dot active"></div>
@@ -490,9 +488,9 @@
         <!-- Blog panel -->
         <div class="blog-panel">
             <h3 class="blog-panel__heading">
-                The Modern Gentleman's Guide to Choosing and Caring for the Perfectly Fitted Suit
+                Discover exquisite semi-precious stone creations crafted for exceptional interiors.
             </h3>
-            <a class="blog-panel__link shrink-underline" href="#">Read more</a>
+           
         </div>
 
     </section>
@@ -560,10 +558,10 @@
 
                     <h2>
                         JOIN THE ADVENTURE <br>
-                        @BESPOKEINNOVE
+                        @CROWNJEWELINDIA
                     </h2>
 
-                    <a href="https://instagram.com/bespokeinnove" target="_blank" class="shrink-underline">
+                    <a href="https://instagram.com/crownjewelindia" target="_blank" class="shrink-underline">
                         FOLLOW US
                     </a>
                 </div>
