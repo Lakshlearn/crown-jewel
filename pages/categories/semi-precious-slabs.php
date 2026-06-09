@@ -37,7 +37,7 @@
     <!-- Gallery Section -->
     <section class="gallery-section">
 
-        <div class="gallery-grid">
+        <div class="category-grid">
 
             <?php
             require '../../includes/constants.php';
