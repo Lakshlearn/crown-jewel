@@ -20,12 +20,11 @@
             </div>
 
             <h1>
-                GALLERY
+                CNC Carving Panels
             </h1>
 
             <p>
-                A curated showcase of precision tailoring, premium fabrics,
-                and timeless craftsmanship.
+                Precision-crafted decorative panels delivering intricate designs with lasting durability.
             </p>
 
         </div>

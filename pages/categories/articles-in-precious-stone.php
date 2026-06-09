@@ -20,12 +20,11 @@
             </div>
 
             <h1>
-                GALLERY
+                Articles in Precious Stones
             </h1>
 
             <p>
-                A curated showcase of precision tailoring, premium fabrics,
-                and timeless craftsmanship.
+                Discover timeless beauty, rarity, value, and craftsmanship in precious gemstones.
             </p>
 
         </div>
