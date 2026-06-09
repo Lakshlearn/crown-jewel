@@ -10,7 +10,7 @@
 
 <body>
     <?php include 'includes/header.php'; ?>
-    <?php include './pages\popup\popup.php;' ?>
+    <?php include './pages/popup/popup.php'; ?>
 
     <section class="hero-section">
 
