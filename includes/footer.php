@@ -40,14 +40,9 @@
 <footer class="site-footer">
 
     <div class="footer-left">
-        © 2026 VamTam. All rights reserved.
+        © 2026 Crown Jewel. All rights reserved.
     </div>
 
-    <div class="footer-center">
-        <a href="#">Instagram</a>
-        <a href="#">Facebook</a>
-        <a href="#">Pinterest</a>
-    </div>
 
     <div class="footer-right">
         <a href="#">Terms & conditions</a>
