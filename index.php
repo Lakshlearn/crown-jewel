@@ -223,7 +223,7 @@
             <!-- CARD 3 -->
             <div class="category-card">
 
-                <div class="fit fit-img-1">
+                <div class="fit fit-img-3">
                 </div>
 
                 <a href="#" class="category-link text-md shrink-underline">
@@ -243,7 +243,7 @@
                 </div>
 
                 <a href="#" class="category-link text-md shrink-underline">
-                    CNC Carving Panels
+                    Inlays
                 </a>
 
             </div>
@@ -256,15 +256,10 @@
     <!-- section 3 part 2  -->
     <section class="category-section">
 
-
-
-
-
-
         <!-- CATEGORY GRID -->
         <div class="category-grid">
 
-            <!-- CARD 1 -->
+            <!-- CARD 5 -->
             <div class="category-card">
 
                 <div class="fit fit-img-5">
@@ -280,7 +275,7 @@
 
 
 
-            <!-- CARD 2 -->
+            <!-- CARD 6 -->
             <div class="category-card">
 
                 <div class="fit fit-img-6">
@@ -296,7 +291,7 @@
 
 
 
-            <!-- CARD 3 -->
+            <!-- CARD 7 -->
             <div class="category-card">
 
                 <div class="fit fit-img-7">
@@ -312,7 +307,7 @@
 
 
 
-            <!-- CARD 4 -->
+            <!-- CARD 8 -->
             <div class="category-card">
 
                 <div class="fit fit-img-8">
