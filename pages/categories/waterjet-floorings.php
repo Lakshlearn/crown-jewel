@@ -21,7 +21,7 @@
             </div>
 
             <h1>
-                GALLERY
+                Waterjet Floorings
             </h1>
 
             <p>
