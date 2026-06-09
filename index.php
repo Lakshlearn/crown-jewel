@@ -5,10 +5,12 @@
 <head>
     <title>Crown Web</title>
     <link rel="stylesheet" href='css/style.css'>
+    <link rel="stylesheet" href="./css/components/popup.css">
 </head>
 
 <body>
     <?php include 'includes/header.php'; ?>
+    <?php include './pages\popup\popup.php;' ?>
 
     <section class="hero-section">
 
@@ -18,11 +20,10 @@
             <span class="mini-text">DETAILED CRAFTSMANSHIP</span>
 
             <h1>
-                THE CUSTOM CLOTHING <br>
-                EXPERIENCE YOU DESERVE
+                Premium Semi-Precious Stones, <br>Crafted to Perfection
             </h1>
 
-            <a href="#" class="hero-btn">
+            <a href="#" onclick="openWaterjetPopup(); return false;" class="hero-btn">
                 BOOK AN APPOINTMENT
             </a>
 
@@ -589,6 +590,7 @@
 
     <?php include 'includes/footer.php'; ?>
     <script src="./js/script.js"></script>
+    <script src="./js/popup.js"></script>
 </body>
 
 </html>
