@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600&display=swap');
+@import "../components/header.css";
+@import "../components/footer.css";
 @import "../shared.css";
 
 * {
@@ -27,7 +29,7 @@ body {
 
 @media (min-width: 1000px) {
     .gallery-hero {
-        margin: 50px auto;
+        margin: 100px auto 50px;
     }
 }
 

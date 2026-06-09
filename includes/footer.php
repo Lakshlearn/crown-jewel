@@ -1,82 +1,57 @@
-<footer class="footer">
+<!-- ========================= -->
+<!--       Newsletter Footer   -->
+<!-- ========================= -->
+<section class="newsletter-footer">
 
-        <div class="appointment-content">
+    <div class="brand-logo">
+        <h2>
+            CROWN JEWELS
+        </h2>
+    </div>
 
-            <div class="dress-icon">
-                <img src="/crownweb/images/dress-icon.svg" alt="Dress Icon">
-            </div>
-
-            <h2>INTERIOR THAT AFFIRM YOU</h2>
-
-            <a href="#" class="appointment-btn shrink-underline-btn">
-                <span>
-                    BOOK AN APPOINTMENT
-                </span>
-            </a>
+    <div class="newsletter-box">
+        <div class="offer-text">
+            SIGN UP TO GET 10% OFF YOUR FIRST ORDER
         </div>
 
-    <!-- Newsletter -->
-    <div class="newsletter">
-
-        <div class="newsletter-text">
-            SUBSCRIBE TO GET THE LATEST UPDATES
-        </div>
-
-        <form class="newsletter-form">
+        <div class="email-box">
             <input type="email" placeholder="Enter your email address">
-            <button type="submit">
-                <i class="bi bi-arrow-right"></i>
-            </button>
-        </form>
-
+            <button type="submit">&#8594;</button>
+        </div>
     </div>
 
-    <!-- Footer Links -->
     <div class="footer-links">
-
-        <!-- Left -->
-        <div class="footer-contact">
-            <div class="footer-contact-title">
-                <p>1-833-848-6666</p>
-                <p>contact@bespokeinnove.com</p>
-            </div>
-
-            <div class="footer-contact-us">
-                <a href="#" class="shrink-underline">
-                    CONTACT US
-                </a>
-            </div>
-        </div>
-
-        <!-- Center -->
-        <div class="footer-menu">
-            <a href="#">About</a>
-            <a href="#">Our Fabrics</a>
-            <a href="#">Meet our team</a>
-        </div>
-
-        <!-- Right -->
-        <div class="footer-terms">
-            <a href="#">Press</a>
-            <a href="#">Privacy policy</a>
-            <a href="#">Terms & conditions</a>
-        </div>
-
+        <a href="#">About</a>
+        <a href="#">Sustainability</a>
+        <a href="#">Press</a>
+        <a href="#">Contact</a>
+        <a href="#">Delivery and returns</a>
     </div>
 
-    <!-- Bottom -->
-    <div class="footer-bottom">
+</section>
+</main>
 
-        <div class="copyright">
-            © 2026 deskloventures. All rights reserved.
-        </div>
 
-        <div class="socials">
-            <a href="#">Instagram</a>
-            <a href="#">Facebook</a>
-            <a href="#">Pinterest</a>
-        </div>
 
+
+<!-- ============ -->
+<!--     Footer   -->
+<!-- ============ -->
+<footer class="site-footer">
+
+    <div class="footer-left">
+        © 2026 VamTam. All rights reserved.
+    </div>
+
+    <div class="footer-center">
+        <a href="#">Instagram</a>
+        <a href="#">Facebook</a>
+        <a href="#">Pinterest</a>
+    </div>
+
+    <div class="footer-right">
+        <a href="#">Terms & conditions</a>
+        <a href="#">Privacy policy</a>
     </div>
 
 </footer>

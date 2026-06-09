@@ -10,7 +10,7 @@
 </head>
 
 <body>
-
+    <?php include '../includes/header.php'; ?>
     <!-- Hero Section -->
     <section class="gallery-hero">
 
@@ -41,7 +41,7 @@
 
             <?php
             require '../includes/constants.php';
-            
+
             foreach (SEMI_PRECIOUS_STONES as $image):
                 ?>
                 <div class="gallery-item">
@@ -53,6 +53,7 @@
 
     </section>
 
+    <?php include '../includes/footer.php'; ?>
 </body>
 
 </html>

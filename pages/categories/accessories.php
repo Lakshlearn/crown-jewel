@@ -10,6 +10,8 @@
 
 <body>
 
+    <?php include '../../includes/header.php'; ?>
+
     <!-- Hero Section -->
     <section class="gallery-hero">
 
@@ -51,6 +53,7 @@
 
     </section>
 
+    <?php include '../../includes/footer.php'; ?>
 </body>
 
 </html>
