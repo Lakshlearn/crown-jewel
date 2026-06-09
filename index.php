@@ -211,7 +211,7 @@
                 </div>
 
                 <a href="#" class="category-link text-md shrink-underline">
-                    Inlays
+                    CNC Carving Panels
                 </a>
 
             </div>

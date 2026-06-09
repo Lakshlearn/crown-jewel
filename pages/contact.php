@@ -9,10 +9,8 @@
 </head>
 
 <body>
-    <?php include __DIR__ . '/../includes/header.php'; ?>
+    <?php include '/../includes/header.php'; ?>
     <main>
-
-
 
         <!-- =================== -->
         <!--     Help Section     -->
@@ -93,8 +91,8 @@
             </form>
 
         </div>
-        <?php include '../includes/footer.php'; ?>
 
+        <?php include '../includes/footer.php'; ?>
 
 </body>
 
