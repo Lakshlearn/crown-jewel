@@ -20,12 +20,11 @@
             </div>
 
             <h1>
-                GALLERY
+                Inlays
             </h1>
 
             <p>
-                A curated showcase of precision tailoring, premium fabrics,
-                and timeless craftsmanship.
+                Intricate inlay craftsmanship enhancing surfaces with detail, beauty, and character.
             </p>
 
         </div>

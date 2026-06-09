@@ -25,8 +25,7 @@
             </h1>
 
             <p>
-                A curated showcase of precision tailoring, premium fabrics,
-                and timeless craftsmanship.
+                Precision-cut waterjet flooring designs creating stunning, seamless architectural statements.
             </p>
 
         </div>

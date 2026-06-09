@@ -21,12 +21,11 @@
             </div>
 
             <h1>
-                GALLERY
+                Semi-Precious Slabs
             </h1>
 
             <p>
-                A curated showcase of precision tailoring, premium fabrics,
-                and timeless craftsmanship.
+                Unique semi-precious stone slabs showcasing natural patterns and vibrant beauty.
             </p>
 
         </div>

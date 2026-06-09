@@ -21,7 +21,7 @@
             </div>
 
             <h1>
-                GALLERY
+                Metal with Precious Stones
             </h1>
 
             <p>

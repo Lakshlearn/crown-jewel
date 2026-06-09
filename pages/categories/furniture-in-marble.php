@@ -20,12 +20,11 @@
             </div>
 
             <h1>
-                GALLERY
+                Furniture in Marble
             </h1>
 
             <p>
-                A curated showcase of precision tailoring, premium fabrics,
-                and timeless craftsmanship.
+                Elegant marble furniture combining luxury, strength, and timeless sophistication.
             </p>
 
         </div>

@@ -20,12 +20,11 @@
             </div>
 
             <h1>
-                GALLERY
+                Italian Glass
             </h1>
 
             <p>
-                A curated showcase of precision tailoring, premium fabrics,
-                and timeless craftsmanship.
+                Exquisite Italian glass creations blending artistry, elegance, and enduring appeal.
             </p>
 
         </div>
