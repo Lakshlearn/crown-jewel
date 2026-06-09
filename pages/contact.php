@@ -26,21 +26,21 @@
             <div class="help-grid">
 
                 <div class="help-card">
-                    <h3>DESIGN STUDIO</h3>
-                    <p>217 Tueri Junction, New York, NY 10002</p>
-                    <p>10:00 am – 7:00 pm Daily</p>
+                    <h3>Address</h3>
+                    <p>18/20/1, Hasamabad Industrial Area, </p>
+                    <p>District Sonipat, Haryana 131021</p>
                 </div>
 
                 <div class="help-card">
                     <h3>CUSTOMER CARE</h3>
-                    <p>+1 212 532 8222</p>
-                    <p>shop@innovecouture.com</p>
+                    <p>9667733152</p>
+                    <p>mail@crownjewel.in</p>
                 </div>
 
                 <div class="help-card">
-                    <h3>PR INQUIRIES</h3>
-                    <p>+1 212 532 8222</p>
-                    <p>pr@innovecouture.com</p>
+                    <h3>Find Us</h3>
+                    <p><a href="https://share.google/eNgnqmv2zuvgzk4i1" target="_blank">Google Maps</a></p>
+                   <p><a href="https://www.instagram.com/crownjewelindia" target="_blank">Instagram</a></p>
                 </div>
             </div>
 
