@@ -22,13 +22,8 @@
             </div>
 
             <h1>
-                GALLERY
+                Accessories
             </h1>
-
-            <p>
-                A curated showcase of precision tailoring, premium fabrics,
-                and timeless craftsmanship.
-            </p>
 
         </div>
 
