@@ -17,7 +17,7 @@
 
 /* If using text instead of image */
 .brand-logo h2 {
-    font-size: 90px;
+    font-size: clamp(20px, 1vw, 90px);
     font-weight: 300;
     letter-spacing: 2px;
     text-transform: uppercase;
@@ -122,4 +122,151 @@
 
 .site-footer a:hover {
     opacity: 0.6;
+}
+
+
+
+/* ==========================================
+   RESPONSIVE FOOTER
+========================================== */
+
+/* Tablet */
+@media (max-width: 1024px) {
+
+    .brand-logo h2 {
+        font-size: 60px;
+    }
+
+    .newsletter-box {
+        max-width: 100%;
+    }
+
+    .footer-links {
+        gap: 24px;
+    }
+
+    .footer-links a {
+        font-size: 14px;
+    }
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+
+    /* Newsletter Section */
+    .newsletter-footer {
+        padding: 50px 20px 60px;
+    }
+
+    .brand-logo {
+        margin-bottom: 25px;
+    }
+
+    .brand-logo h2 {
+        font-size: 34px;
+        line-height: 1.2;
+        letter-spacing: 1px;
+        text-align: center;
+    }
+
+    /* Stack Newsletter Box */
+    .newsletter-box {
+        grid-template-columns: 1fr;
+    }
+
+    .offer-text {
+        padding: 20px;
+        text-align: center;
+        justify-content: center;
+        font-size: 14px;
+        border-bottom: 1px solid #d9d9d9;
+    }
+
+    .email-box {
+        border-left: none;
+    }
+
+    .email-box input {
+        padding: 20px;
+        font-size: 14px;
+        min-width: 0;
+    }
+
+    .email-box button {
+        width: 60px;
+        font-size: 28px;
+        flex-shrink: 0;
+    }
+
+    /* Footer Links */
+    .footer-links {
+        margin-top: 40px;
+        gap: 14px;
+        justify-content: center;
+    }
+
+    .footer-links a {
+        font-size: 13px;
+        text-align: center;
+    }
+
+    /* Bottom Footer */
+    .site-footer {
+        flex-direction: column;
+        gap: 15px;
+        text-align: center;
+        padding: 25px 20px;
+    }
+
+    .footer-right {
+        gap: 20px;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}
+
+/* Small Mobile */
+@media (max-width: 480px) {
+
+    .brand-logo h2 {
+        font-size: 28px;
+    }
+
+    .offer-text {
+        font-size: 12px;
+        line-height: 1.5;
+    }
+
+    .email-box {
+        flex-direction: row;
+    }
+
+    .email-box input {
+        font-size: 13px;
+        padding: 18px 15px;
+    }
+
+    .email-box button {
+        width: 50px;
+        font-size: 22px;
+    }
+
+    .footer-links {
+        flex-direction: column;
+        align-items: center;
+        gap: 12px;
+    }
+
+    .footer-links a {
+        font-size: 13px;
+    }
+
+    .site-footer {
+        font-size: 11px;
+    }
+
+    .footer-right {
+        flex-direction: column;
+        gap: 10px;
+    }
 }

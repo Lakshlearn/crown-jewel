@@ -51,13 +51,28 @@
 /* ============================ */
 
 .fit {
-    width: 450px;
-    height: 550px;
+    width: min(100%, 350px);
+    aspect-ratio: 450 / 550;
     overflow: hidden;
     position: relative;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+    border-radius: 12px;
+}
+
+@media (min-width: 1200px) {
+    .fit {
+        max-width: 360px;
+    }
+}
+
+@media (min-width: 768px) {
+    .fit {
+        width: 100%;
+        aspect-ratio: auto;
+        min-height: 320px;
+    }
 }
 
 /* Images for Personal Fit section */
