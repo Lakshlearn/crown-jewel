@@ -12,13 +12,13 @@
             <li class="nav-list-item has-sub-nav-list"><a href="/crownweb/pages/explore.php">CATEGORIES</a>
             <ul class="sub-nav-list">
                 <li class="sub-nav-list-item"><a href="/crownweb/pages/categories/accessories.php">ACCESSORIES</a></li>
-                <li class="sub-nav-list-item"><a href="/crownweb/pages/categories/articles.php">ARTICLES IN PRECIOUS STONE</a></li>
-                <li class="sub-nav-list-item"><a href="/crownweb/pages/categories/cnc-carving.php">CNC CARVING PANELS</a></li>
-                <li class="sub-nav-list-item"><a href="/crownweb/pages/categories/furniture.php">FUNITURE IN MARBLE</a></li>
+                <li class="sub-nav-list-item"><a href="/crownweb/pages/categories/articles-in-precious-stone.php">ARTICLES IN PRECIOUS STONE</a></li>
+                <li class="sub-nav-list-item"><a href="/crownweb/pages/categories/cnc-carving-panels.php">CNC CARVING PANELS</a></li>
+                <li class="sub-nav-list-item"><a href="/crownweb/pages/categories/furniture-in-marble.php">FUNITURE IN MARBLE</a></li>
                 <li class="sub-nav-list-item"><a href="/crownweb/pages/categories/inlay.php">INLAY</a></li>
                 <li class="sub-nav-list-item"><a href="/crownweb/pages/categories/italian-glass.php">ITALIAN GLASS</a></li>
-                <li class="sub-nav-list-item"><a href="/crownweb/pages/categories/metal-with-precious-stones.php">METAL WITH PRECIOUS STONES</a></li>
-                <li class="sub-nav-list-item"><a href="/crownweb/pages/categories/semi-precious-stones.php">SEMI PRECIOUS STONES</a></li>
+                <li class="sub-nav-list-item"><a href="/crownweb/pages/categories/metal-with-precious-stone.php">METAL WITH PRECIOUS STONES</a></li>
+                <li class="sub-nav-list-item"><a href="/crownweb/pages/categories/semi-precious-slabs.php">SEMI PRECIOUS STONES</a></li>
                 <li class="sub-nav-list-item"><a href="/crownweb/pages/categories/waterjet-floorings.php">WATERJET FLOORINGS</a></li>
             </ul>
             </li>
