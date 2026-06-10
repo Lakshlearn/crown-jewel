@@ -297,7 +297,8 @@
                 <div class="fit fit-img-7">
                 </div>
 
-                <a href="pages/categories/articles-in-precious-stone.php" class="category-link text-md shrink-underline">
+                <a href="pages/categories/articles-in-precious-stone.php"
+                    class="category-link text-md shrink-underline">
                     Articles In Precious Stones
                 </a>
 
@@ -407,7 +408,7 @@
                 </div>
             </div>
             <div class="product-card__info">
-                
+
                 <div class="product-card__dots">
                     <div class="product-card__dot active"></div>
                     <div class="product-card__dot"></div>
@@ -430,7 +431,7 @@
                 </div>
             </div>
             <div class="product-card__info">
-              
+
                 <div class="product-card__dots">
                     <div class="product-card__dot"></div>
                     <div class="product-card__dot active"></div>
@@ -490,7 +491,7 @@
             <h3 class="blog-panel__heading">
                 Discover exquisite semi-precious stone creations crafted for exceptional interiors.
             </h3>
-           
+
         </div>
 
     </section>
@@ -534,11 +535,11 @@
 
                     <div class="process-button">
 
-            <a href="#" onclick="openWaterjetPopup(); return false;" class="hero-btn">
-                BOOK AN APPOINTMENT
-            </a>
+                        <a href="#" onclick="openWaterjetPopup(); return false;" class="hero-btn">
+                            BOOK AN APPOINTMENT
+                        </a>
 
-        </div>
+                    </div>
                 </div>
 
             </div>
@@ -583,7 +584,7 @@
     </section>
 
     <?php include 'includes/footer.php'; ?>
-    
+
     <script src="./js/script.js"></script>
     <script src="./js/popup.js"></script>
 </body>

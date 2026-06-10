@@ -26,12 +26,17 @@
     color: #000;
 }
 
-.nav {
+nav > ul {
     display: flex;
     gap: 50px;
 }
 
-.nav a {
+nav li {
+    list-style: none;
+    position: relative;
+}
+
+nav a {
     text-decoration: none;
     color: #000;
     font-size: 15px;
@@ -39,8 +44,48 @@
     transition: 0.3s;
 }
 
-.nav a:hover {
+nav a:hover {
     opacity: 0.6;
+}
+
+
+/* sub-nav-list */
+.sub-nav-list {
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    width: clamp(100px, 8vw, 200px);
+    background: #f5f5f5;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    opacity: 0;
+    visibility: hidden;
+    transition: all 0.3s ease;
+}
+
+.sub-nav-list li {
+    padding: 0;
+}
+
+.sub-nav-list a {
+    display: block;
+    padding: 16px 24px;
+    color: #333;
+    font-size: 12px;
+}
+
+.sub-nav-list a:hover {
+    background: #e8e8e8;
+}
+
+/* Show sub-nav-list when parent OR sub-nav-list is hovered */
+.has-sub-nav-list:hover .sub-nav-list,
+.sub-nav-list:hover {
+    opacity: 1;
+    visibility: visible;
 }
 
 .icons {
@@ -66,4 +111,3 @@
     font-size: 12px;
     font-weight: bold;
 }
-
