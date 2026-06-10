@@ -532,11 +532,13 @@
                         embody sophistication, depth, and your unique vision.
                     </p>
 
-                    <div class="about-links-bottom">
-                        <a class="shrink-underline" href="#">
-                            EXPLORE OUR LOCATIONS
-                        </a>
-                    </div>
+                    <div class="process-button">
+
+            <a href="#" onclick="openWaterjetPopup(); return false;" class="hero-btn">
+                BOOK AN APPOINTMENT
+            </a>
+
+        </div>
                 </div>
 
             </div>
