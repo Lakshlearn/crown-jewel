@@ -26,7 +26,7 @@
     color: #000;
 }
 
-nav > ul {
+nav>ul {
     display: flex;
     gap: 50px;
 }
@@ -108,4 +108,140 @@ nav a:hover {
     right: -10px;
     font-size: 12px;
     font-weight: bold;
+}
+
+
+/* ===============================
+   MOBILE MENU
+================================= */
+
+.menu-toggle {
+    display: none;
+    background: none;
+    border: none;
+    font-size: 30px;
+    cursor: pointer;
+    color: #000;
+}
+
+.menu-toggle .bi-x {
+    display: none;
+}
+
+.menu-toggle.active .bi-list {
+    display: none;
+}
+
+.menu-toggle.active .bi-x {
+    display: inline;
+}
+
+/* Sidebar */
+.mobile-sidebar {
+    position: fixed;
+    top: 0;
+    right: -320px;
+    width: 300px;
+    height: 100vh;
+    background: #fff;
+    z-index: 2000;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    transition: right 0.35s ease;
+    box-shadow: 0 0 20px rgba(0, 0, 0, .15);
+}
+
+.mobile-sidebar.active {
+    right: 0;
+}
+
+.close-sidebar {
+    background: none;
+    border: none;
+    font-size: 24px;
+    cursor: pointer;
+    align-self: flex-end;
+}
+
+.mobile-nav-list {
+    list-style: none;
+}
+
+.mobile-nav-list li {
+    margin-bottom: 18px;
+}
+
+.mobile-nav-list a {
+    text-decoration: none;
+    color: #000;
+    font-size: 14px;
+    font-weight: 500;
+    display: block;
+}
+
+.mobile-category-title {
+    margin-top: 25px;
+    margin-bottom: 15px;
+    font-weight: 700;
+    font-size: 13px;
+    color: #999;
+    letter-spacing: 1px;
+}
+
+/* Overlay */
+.sidebar-overlay {
+    position: fixed;
+    inset: 0;
+    background: rgba(0, 0, 0, .4);
+    opacity: 0;
+    visibility: hidden;
+    transition: .3s;
+    z-index: 1500;
+}
+
+.sidebar-overlay.active {
+    opacity: 1;
+    visibility: visible;
+}
+
+/* ===============================
+   TABLET & MOBILE
+================================= */
+
+@media (max-width: 768px) {
+
+    .header {
+        padding: 20px;
+    }
+
+    .nav,
+    .icons {
+        display: none;
+    }
+
+    .menu-toggle {
+        display: block;
+    }
+
+    .logo {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 480px) {
+
+    .header {
+        padding: 15px;
+    }
+
+    .logo {
+        font-size: 14px;
+    }
+
+    .mobile-sidebar {
+        width: 280px;
+        height: 100vh;
+    }
 }

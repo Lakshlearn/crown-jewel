@@ -1,8 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600&display=swap');
-@import "components/header.css";
-@import "components/footer.css";
-@import "components/popup.css";
-@import "shared.css";
+@import "./components/header.css";
+@import "./components/footer.css";
+@import "./components/popup.css";
+@import "./shared.css";
 
 :root {
     --light-brown: #F4F1EE;
@@ -1395,5 +1395,67 @@ body {
 
     .ig-card img {
         height: 420px;
+    }
+}
+
+
+/* ── Mobile fixes ── */
+@media (max-width: 768px) {
+
+    /* About section */
+    .about-container {
+        flex-direction: column;
+        gap: 40px;
+        padding: 0 20px;
+    }
+
+    .about-content-top,
+    .about-content {
+        width: 100%;
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .about-content-top p {
+        padding-right: 0;
+    }
+
+    .about-content-text {
+        padding-left: 0;
+    }
+
+    /* About images */
+    .about-images {
+        width: 100%;
+        margin-left: 0;
+        justify-content: center;
+    }
+
+    .big-image {
+        width: 100%;
+        height: 420px;
+    }
+
+    /* Process section */
+    .process-section {
+        padding: 60px 20px;
+    }
+
+    /* Instagram grid */
+    .ig-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .ig-card img {
+        height: 340px;
+    }
+
+    /* Products section */
+    .products-section {
+        grid-template-columns: 1fr;
+    }
+
+    .lower-section {
+        grid-template-columns: 1fr;
     }
 }
