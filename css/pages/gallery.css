@@ -38,7 +38,7 @@ body {
 }
 
 .hero-subtitle {
-    font-size: 13px;
+    font-size: clamp(7px, 2vw, 13px);
     letter-spacing: 4px;
     margin-bottom: 25px;
     text-transform: uppercase;
@@ -51,7 +51,7 @@ body {
 }
 
 .hero-content h1 {
-    font-size: clamp(50px, 10vw, 80px);
+    font-size: clamp(30px, 10vw, 80px);
     font-weight: 300;
     letter-spacing: 8px;
     text-transform: uppercase;
@@ -68,7 +68,7 @@ body {
     max-width: 650px;
     margin: 35px auto 0;
 
-    font-size: 16px;
+    font-size: clamp(10px, 2.5vw, 16px);
     line-height: 1.8;
     color: #666;
 
@@ -124,7 +124,7 @@ body {
     object-fit: contain;
 
     transition: transform .9s cubic-bezier(.22, 1, .36, 1),
-        filter .9s ease;
+    filter .9s ease;
 }
 
 .gallery-item:hover img {
@@ -136,7 +136,7 @@ body {
 
 @media (max-width: 1200px) {
 
-    .gallery-grid {
+    .gallery-grid, .category-grid {
         grid-template-columns: repeat(3, 1fr);
     }
 
@@ -148,7 +148,7 @@ body {
         height: 75vh;
     }
 
-    .gallery-grid {
+    .gallery-grid, .category-grid {
         grid-template-columns: repeat(2, 1fr);
         gap: 15px;
     }
@@ -161,7 +161,7 @@ body {
 
 @media (max-width: 480px) {
 
-    .gallery-grid {
+    .gallery-grid, .category-grid {
         grid-template-columns: 1fr;
     }
 
