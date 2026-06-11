@@ -182,3 +182,16 @@ document.addEventListener('DOMContentLoaded', () => {
     updateParallax();
 
 });
+
+// Dynamically load header and popup scripts from root js folder
+(function loadScripts() {
+    const baseUrl = '/crownweb/js/';
+    const scripts = ['header.js', 'popup.js'];
+
+    scripts.forEach((filename) => {
+        const script = document.createElement('script');
+        script.src = baseUrl + filename;
+        script.async = true;
+        document.body.appendChild(script);
+    });
+})();

@@ -87,16 +87,14 @@
                     <textarea rows="8"></textarea>
                 </div>
 
-                <button type="submit">SUBMIT</button>
+                <button type="submit" class="submit-btn">SUBMIT</button>
             </form>
 
         </div>
 
         <?php include '../includes/footer.php'; ?>
 
-        <script src="./js/script.js"></script>
-        <script src="./js/header.js"></script>
-        <script src="./js/popup.js"></script>
+        <script src="../js/script.js"></script>
 </body>
 
 </html>

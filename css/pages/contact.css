@@ -171,7 +171,7 @@ textarea {
     margin-bottom: 20px;
 }
 
-button {
+.submit-btn {
     width: 175px;
     height: 55px;
     border: none;
@@ -186,7 +186,7 @@ button {
     border: 1px solid #000;
 }
 
-button:hover {
+.submit-btn:hover {
     color: #000;
     background: transparent;
 }
@@ -201,7 +201,7 @@ button:hover {
         font-size: 16px;
     }
 
-    button {
+    .submit-btn {
         width: 100%;
     }
 }
