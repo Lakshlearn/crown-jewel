@@ -542,7 +542,7 @@
 
                         <div class="process-button">
 
-                            <a href="#" onclick="openWaterjetPopup(); return false;" class="hero-btn">
+                            <a href="#" onclick="openWaterjetPopup(); return false;" class="shrink-underline">
                                 BOOK AN APPOINTMENT
                             </a>
 
