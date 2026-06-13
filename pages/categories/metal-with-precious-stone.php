@@ -7,6 +7,7 @@
     <title>Categories</title>
 
     <link rel="stylesheet" href="../../css/pages/gallery.css">
+    <link rel="icon" type="image/png" sizes="60x60" href="../../images/favicon.png">
 </head>
 
 <body>

@@ -79,19 +79,19 @@
     </div>
 
     <div class="icons">
-        <a href="#">
-            <i class="bi bi-person"></i>
-        </a>
-
-        <a href="#">
-            <i class="bi bi-heart"></i>
-        </a>
-
-        <div class="cart">
-            <a href="#">
-                <i class="bi bi-bag"></i>
-            </a>
-            <span>0</span>
-        </div>
+<!--        <a href="#">-->
+<!--            <i class="bi bi-person"></i>-->
+<!--        </a>-->
+<!---->
+<!--        <a href="#">-->
+<!--            <i class="bi bi-heart"></i>-->
+<!--        </a>-->
+<!---->
+<!--        <div class="cart">-->
+<!--            <a href="#">-->
+<!--                <i class="bi bi-bag"></i>-->
+<!--            </a>-->
+<!--            <span>0</span>-->
+<!--        </div>-->
     </div>
 </header>

@@ -21,8 +21,6 @@ main {
 }
 
 
-
-
 /* =========================== */
 /*     Help Section Styles     */
 /* =========================== */
@@ -79,23 +77,27 @@ main {
 }
 
 
-.help-card h3 {
-    font-size: 20px;
-    font-weight: 400;
-    margin-bottom: 25px;
-    letter-spacing: 0.5px;
-    color: #111;
+.help-card {
+    h3 {
+        font-size: 20px;
+        font-weight: 400;
+        margin-bottom: 25px;
+        letter-spacing: 0.5px;
+        color: #111;
+    }
+
+    p {
+        font-size: 16px;
+        line-height: 1.8;
+        color: #222;
+        margin: 0;
+    }
+
+    a {
+        text-decoration: none;
+        color: inherit;
+    }
 }
-
-.help-card p {
-    font-size: 16px;
-    line-height: 1.8;
-    color: #222;
-    margin: 0;
-}
-
-
-
 
 
 /* =========================== */
