@@ -1,134 +1,144 @@
-.wj-popup-overlay{
-    position:fixed;
-    inset:0;
-    background:rgba(0,0,0,.75);
-    display:none;
-    justify-content:center;
-    align-items:center;
-    z-index:99999;
-    padding:20px;
+.wj-popup-overlay {
+    position: fixed;
+    inset: 0;
+    background: rgba(0, 0, 0, .75);
+    display: none;
+    justify-content: center;
+    align-items: center;
+    z-index: 99999;
+    padding: 20px;
 }
 
-.wj-popup-container{
-    width:950px;
-    max-width:100%;
-    background:#fff;
-    border-radius:24px;
-    overflow:hidden;
-    display:grid;
+.wj-popup-container {
+    width: 950px;
+    max-width: 100%;
+    background: #fff;
+    border-radius: 24px;
+    overflow: hidden;
+    display: grid;
     grid-template-columns:1fr 1fr;
-    box-shadow:0 20px 60px rgba(0,0,0,.25);
-    animation:popupFade .3s ease;
-    position:relative;
+    box-shadow: 0 20px 60px rgba(0, 0, 0, .25);
+    animation: popupFade .3s ease;
+    position: relative;
 }
 
-@keyframes popupFade{
-    from{
-        opacity:0;
-        transform:translateY(20px);
+@keyframes popupFade {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
     }
-    to{
-        opacity:1;
-        transform:translateY(0);
+    to {
+        opacity: 1;
+        transform: translateY(0);
     }
 }
 
-.wj-image-section img{
-    width:100%;
-    height:100%;
-    object-fit:cover;
-    display:block;
+.wj-image-section {
+    padding: 1rem;
 }
 
-.wj-form-section{
-    padding:45px;
-    display:flex;
-    flex-direction:column;
-    justify-content:center;
+.wj-form-section {
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
-.wj-badge{
-    display:inline-block;
-    padding:8px 15px;
-    background:#ecfeff;
-    color:#0f766e;
-    border-radius:30px;
-    font-size:13px;
-    font-weight:700;
-    margin-bottom:15px;
+.wj-badge {
+    width: 90%;
+    display: inline-block;
+    padding: 8px 15px;
+    background: #ecfeff;
+    color: #0f766e;
+    border-radius: 30px;
+    font-size: 13px;
+    font-weight: 700;
+    margin-bottom: 15px;
 }
 
-.wj-form-section h2{
-    margin:0 0 15px;
-    font-size:34px;
-    color:#111827;
+.wj-form-section h2 {
+    margin: 0 0 15px;
+    font-size: 34px;
+    color: #111827;
 }
 
-.wj-form-section p{
-    color:#6b7280;
-    margin-bottom:25px;
-    line-height:1.6;
+.wj-form-section p {
+    color: #6b7280;
+    margin-bottom: 25px;
+    line-height: 1.6;
 }
 
-.wj-form-section input{
-    width:100%;
-    padding:15px;
-    margin-bottom:15px;
-    border:1px solid #d1d5db;
-    border-radius:12px;
-    font-size:15px;
-    box-sizing:border-box;
+.wj-form-section input {
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 15px;
+    border: 1px solid #d1d5db;
+    border-radius: 12px;
+    font-size: 15px;
+    box-sizing: border-box;
 }
 
-.wj-form-section button{
-    width:100%;
-    padding:16px;
-    border:none;
-    border-radius:12px;
-    background:linear-gradient(
-        135deg,
-        #0f766e,
-        #14b8a6
+.wj-form-section button {
+    width: 100%;
+    padding: 16px;
+    border: none;
+    border-radius: 12px;
+    background: linear-gradient(
+            135deg,
+            #0f766e,
+            #14b8a6
     );
-    color:#fff;
-    font-size:16px;
-    font-weight:700;
-    cursor:pointer;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 700;
+    cursor: pointer;
 }
 
-.wj-form-section button:hover{
-    opacity:.95;
+.wj-form-section button:hover {
+    opacity: .95;
 }
 
-.wj-close-btn{
-    position:absolute;
-    top:15px;
-    right:15px;
-    width:42px;
-    height:42px;
-    border:none;
-    border-radius:50%;
-    background:#fff;
-    font-size:24px;
-    cursor:pointer;
-    box-shadow:0 4px 20px rgba(0,0,0,.15);
+.wj-close-btn {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    width: clamp(30px, 1vw, 35px);
+    height: clamp(30px, 1vw, 35px);;
+    border: none;
+    border-radius: 50%;
+    background: transparent;
+    font-size: 24px;
+    cursor: pointer;
 }
 
-@media(max-width:768px){
+@media (max-width: 768px) {
 
-    .wj-popup-container{
+    .wj-popup-container {
         grid-template-columns:1fr;
     }
 
-    .wj-image-section{
-        height:250px;
+    .wj-image-section {
+        height: 250px;
     }
 
-    .wj-form-section{
-        padding:25px;
+    .wj-form-section {
+        padding: 25px;
     }
 
-    .wj-form-section h2{
-        font-size:28px;
+    .wj-form-section h2 {
+        font-size: 28px;
     }
+}
+
+
+.water-jet-img {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 12px;
+    background-image: url("../../images/waterjet_floorings/65.webp");
 }

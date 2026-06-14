@@ -1,3 +1,38 @@
+<?php
+$contact_send_status = '';
+$name = '';
+$email = '';
+$phone = '';
+$orderNumber = '';
+$message = '';
+
+if ($_SERVER['REQUEST_METHOD'] === 'POST') {
+    $name = trim($_POST['name'] ?? '');
+    $email = filter_var(trim($_POST['email'] ?? ''), FILTER_VALIDATE_EMAIL);
+    $phone = trim($_POST['phone'] ?? '');
+    $orderNumber = trim($_POST['order'] ?? '');
+    $message = trim($_POST['message'] ?? '');
+
+    if ($name === '' || $email === false || $message === '') {
+        $contact_send_status = '<div class="form-status error">Please enter your name, a valid email, and your message.</div>';
+    } else {
+        $to = 'mail@crownjewel.in';
+        $subject = 'New contact form submission';
+        $body = "Name: $name\nEmail: $email\nPhone: $phone\nOrder Number: $orderNumber\n\nMessage:\n$message\n";
+        $headers = "From: Crown Jewels Website <no-reply@crownjewel.in>\r\n";
+        $headers .= "Reply-To: $email\r\n";
+        $headers .= "Content-Type: text/plain; charset=UTF-8\r\n";
+
+        if (mail($to, $subject, $body, $headers)) {
+            $contact_send_status = '<div class="form-status success">Thank you! Your message has been sent successfully.</div>';
+            $name = $email = $phone = $orderNumber = $message = '';
+        } else {
+            $contact_send_status = '<div class="form-status error">Sorry, we could not send your message right now. Please try again later.</div>';
+        }
+    }
+}
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -6,10 +41,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact — CROWNJEWELS</title>
     <link rel="stylesheet" href="../css/pages/contact.css">
+    <link rel="icon" type="image/png" sizes="60x60" href="../images/favicon.png">
 </head>
 
 <body>
-    <?php include '/../includes/header.php'; ?>
+    <?php include __DIR__ . '/../includes/header.php'; ?>
     <main>
 
         <!-- =================== -->
@@ -57,43 +93,49 @@
                 DIRECTLY TO OUR CUSTOMER SUPPORT TEAM
             </h1>
 
-            <form>
+            <?php echo $contact_send_status; ?>
+            <form method="post" action="">
                 <div class="row">
                     <div class="field">
-                        <label>Your name</label>
-                        <input type="text">
+                        <label for="name">Your name</label>
+                        <input type="text" id="name" name="name" value="<?php echo htmlspecialchars($name); ?>"
+                            required>
                     </div>
 
                     <div class="field">
-                        <label>Email address</label>
-                        <input type="email">
+                        <label for="email">Email address</label>
+                        <input type="email" id="email" name="email" value="<?php echo htmlspecialchars($email); ?>"
+                            required>
                     </div>
                 </div>
 
                 <div class="row">
                     <div class="field">
-                        <label>Phone number</label>
-                        <input type="tel">
+                        <label for="phone">Phone number</label>
+                        <input type="tel" id="phone" name="phone" value="<?php echo htmlspecialchars($phone); ?>">
                     </div>
 
                     <div class="field">
-                        <label>Order number</label>
-                        <input type="text">
+                        <label for="order">Order number</label>
+                        <input type="text" id="order" name="order"
+                            value="<?php echo htmlspecialchars($orderNumber); ?>">
                     </div>
                 </div>
 
                 <div class="field full-width">
-                    <label>Your message</label>
-                    <textarea rows="8"></textarea>
+                    <label for="message">Your message</label>
+                    <textarea id="message" name="message" rows="8"
+                        required><?php echo htmlspecialchars($message); ?></textarea>
                 </div>
 
-                <button type="submit">SUBMIT</button>
+                <button type="submit" class="submit-btn">SUBMIT</button>
             </form>
 
         </div>
 
         <?php include '../includes/footer.php'; ?>
 
+        <script src="../js/script.js"></script>
 </body>
 
 </html>

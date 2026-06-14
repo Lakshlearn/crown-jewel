@@ -23,7 +23,8 @@ body {
 .about-section-one {
     position: relative;
     background: #f7f7f7;
-    padding: 150px 15px 0;
+    padding-top: clamp(110px, 11.8vw, 150px);
+    padding-inline: 20px;
     overflow: hidden;
 }
 
@@ -43,7 +44,7 @@ body {
 
 .about-header h2 {
     margin: 0;
-    font-size: clamp(28px, 1vw, 64px);
+    font-size: clamp(20px, 3.5vw, 28px);
     font-weight: 300;
     letter-spacing: 0.04em;
     line-height: 1.15;
@@ -53,11 +54,23 @@ body {
 
 .about-image-wrap {
     position: relative;
-    margin-bottom: 150px;
+    margin-bottom: clamp(20px, 5.9vw, 100px);
     width: 100%;
-    height: 600px;
+    height: 400px;
     overflow: hidden;
     border-radius: 15px;
+}
+
+@media (min-width: 768px) {
+    .about-image-wrap {
+        height: 500px;
+    }
+}
+
+@media (min-width: 1024px) {
+    .about-image-wrap {
+        height: 600px;
+    }
 }
 
 .about-image-parallax {
@@ -77,50 +90,21 @@ body {
     display: block;
 }
 
-/* Tablet */
-
-@media (max-width: 1024px) {
-
-    .about-image-wrap {
-        height: 700px;
-    }
-
-}
-
-/* Mobile */
-
-@media (max-width: 767px) {
-
-    .about-section-one {
-        padding-top: 40px;
-    }
-
-    .about-header h2 {
-        font-size: 28px;
-        line-height: 1.2;
-    }
-
-    .about-image-wrap {
-        height: 500px;
-    }
-
-}
-
 /* ==========================================
    Story section
 ========================================== */
 .story-section {
     font-family: 'Montserrat', sans-serif;
     background: #efefef;
-    padding: 120px 0;
+    padding-top: clamp(20px, 5.9vw, 100px);
     overflow: hidden;
 }
 
 .story-container {
+    width: 100%;
     max-width: 1800px;
     margin: 0 auto;
-    padding: 0 40px;
-
+    padding: 0 20px;
     display: grid;
     grid-template-columns: 260px minmax(500px, 760px) 260px;
     justify-content: space-between;
@@ -133,21 +117,22 @@ body {
 }
 
 .story-content h2 {
-    font-size: 52px;
+    font-size: clamp(28px, 5.3vw, 52px);
     font-family: 'Montserrat', sans-serif;
     font-weight: 300;
     letter-spacing: 2px;
     line-height: 1;
-    margin-bottom: 50px;
+    margin-bottom: clamp(25px, 4.6vw, 50px);
     text-transform: uppercase;
 }
 
 .story-content p {
-    font-size: 16px;
+    font-size: clamp(14px, 2vw, 18px);
     font-family: 'Montserrat', sans-serif;
     line-height: 1.65;
     color: #2d2d2d;
     margin-bottom: 30px;
+    text-align: justify;
 }
 
 .story-image {
@@ -163,12 +148,25 @@ body {
 
 .story-image-left {
     align-self: start;
-    margin-top: 80px;
 }
 
 .story-image-right {
     align-self: end;
     margin-bottom: -120px;
+}
+
+@media(min-width: 768px){
+    .story-image-left{
+        margin-top: 80px;
+    }
+}
+
+@media (min-width: 991px) {
+
+    .story-image-left,
+    .story-image-right {
+        max-width: 260px;
+    }
 }
 
 /* Tablet */
@@ -177,14 +175,6 @@ body {
     .story-container {
         grid-template-columns: 180px 1fr 180px;
         gap: 50px;
-    }
-
-    .story-content h2 {
-        font-size: 48px;
-    }
-
-    .story-content p {
-        font-size: 18px;
     }
 }
 
@@ -195,13 +185,6 @@ body {
         grid-template-columns: 1fr;
         gap: 40px;
         text-align: center;
-    }
-
-    .story-image-left,
-    .story-image-right {
-        margin: 0;
-        justify-self: center;
-        max-width: 260px;
     }
 
     .story-content {
@@ -217,12 +200,4 @@ body {
         order: 3;
     }
 
-    .story-content h2 {
-        font-size: 42px;
-        margin-bottom: 30px;
-    }
-
-    .story-content p {
-        font-size: 17px;
-    }
 }

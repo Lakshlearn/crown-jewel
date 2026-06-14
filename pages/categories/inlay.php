@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Categories</title>
     <link rel="stylesheet" href="../../css/pages/gallery.css">
+    <link rel="icon" type="image/png" sizes="60x60" href="../../images/favicon.png">
 </head>
 
 <body>
@@ -53,6 +54,7 @@
 
     <?php include '../../includes/footer.php'; ?>
 
+    <script src="../../js/script.js"></script>
 </body>
 
 </html>

@@ -4,14 +4,12 @@
     <div class="wj-popup-container">
 
         <button class="wj-close-btn" onclick="closeWaterjetPopup()">
-            &times;
+            <i class="bi bi-x"></i>
         </button>
 
         <div class="wj-image-section">
-            <img
-                src="images/waterjet-flooring.jpg"
-                alt="Water Jet Flooring"
-            >
+            <div class="water-jet-img">
+            </div>
         </div>
 
         <div class="wj-form-section">
@@ -30,17 +28,17 @@
             <form id="waterjetLeadForm" action="save-lead.php" method="POST">
 
                 <input
-                    type="text"
-                    name="name"
-                    placeholder="Your Name"
-                    required
+                        type="text"
+                        name="name"
+                        placeholder="Your Name"
+                        required
                 >
 
                 <input
-                    type="tel"
-                    name="phone"
-                    placeholder="Phone Number"
-                    required
+                        type="tel"
+                        name="phone"
+                        placeholder="Phone Number"
+                        required
                 >
 
                 <button type="submit">

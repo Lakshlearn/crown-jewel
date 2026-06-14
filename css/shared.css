@@ -51,46 +51,54 @@
 /* ============================ */
 
 .fit {
-    width: 450px;
-    height: 550px;
+    width: 100%;
+    aspect-ratio: 450 / 550;
     overflow: hidden;
     position: relative;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+    border-radius: 12px;
+}
+
+@media (min-width: 768px) {
+    .fit {
+        aspect-ratio: auto;
+        min-height: 320px;
+    }
 }
 
 /* Images for Personal Fit section */
 .fit-img-1 {
-    background-image: url("../images/catimg1.png");
+    background-image: url("../images/catimg1.webp");
 }
 
 .fit-img-2 {
-    background-image: url("../images/cnc_carving_panels/23.jpg");
+    background-image: url("../images/cnc_carving_panels/23.webp");
 }
 
 .fit-img-3 {
-    background-image: url("../images/waterjet_floorings/65.jpg");
+    background-image: url("../images/waterjet_floorings/65.webp");
 }
 
 .fit-img-4 {
-    background-image: url("../images/inlays/44.jpg");
+    background-image: url("../images/inlays/44.webp");
 }
 
 .fit-img-5 {
-    background-image: url("../images/italian_glass/51.jpg");
+    background-image: url("../images/italian_glass/51.webp");
 }
 
 .fit-img-6 {
-    background-image: url("../images/furniture_in_marble/38.png");
+    background-image: url("../images/furniture_in_marble/38.webp");
 }
 
 .fit-img-7 {
-    background-image: url("../images/articles_in_precious_stones/14.jpg");
+    background-image: url("../images/articles_in_precious_stones/14.webp");
 }
 
 .fit-img-8 {
-    background-image: url("../images/metal_with_precious_stones/m2p.jpeg");
+    background-image: url("../images/metal_with_precious_stones/m2p.webp");
 }
 
 /* Images */
@@ -102,7 +110,7 @@
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    background-image: url("../images/prod-1.png");
+    background-image: url("../images/prod-1.webp");
 }
 
 .prod-img-2 {
@@ -113,7 +121,7 @@
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    background-image: url("../images/prod-2.png");
+    background-image: url("../images/prod-2.webp");
 }
 
 .prod-img-3 {
@@ -124,7 +132,7 @@
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    background-image: url("../images/prod-3.png");
+    background-image: url("../images/prod-3.webp");
 }
 
 .prod-img-4 {
@@ -135,7 +143,7 @@
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    background-image: url("../images/prod-4.png");
+    background-image: url("../images/prod-4.webp");
 }
 
 .text-md {

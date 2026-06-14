@@ -4,8 +4,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href='../css/pages/about.css'>
     <title>About Us : Crown Jewels</title>
+    <link rel="stylesheet" href='../css/pages/about.css'>
+    <link rel="icon" type="image/png" sizes="60x60" href="../images/favicon.png">
 </head>
 
 <body>
@@ -21,7 +22,7 @@
 
         <div class="about-image-wrap">
             <div class="about-image-parallax">
-                <img src="../images/bg-img-2.png" alt="About Image">
+                <img src="../images/bg-img-2.webp" alt="About Image">
             </div>
         </div>
 
@@ -32,7 +33,7 @@
         <div class="story-container">
 
             <div class="story-image story-image-left">
-                <img src="../images/cat-img-9.png" alt="Story Image">
+                <img src="../images/cat-img-9.webp" alt="Story Image">
             </div>
 
             <div class="story-content">
@@ -52,12 +53,13 @@
             </div>
 
             <div class="story-image story-image-right">
-                <img src="../images/prod-2.png" alt="Story Image">
+                <img src="../images/prod-2.webp" alt="Story Image">
             </div>
 
         </div>
     </section>
     <?php include '../includes/footer.php'; ?>
+
     <script src="../js/script.js"></script>
 </body>
 

@@ -21,8 +21,6 @@ main {
 }
 
 
-
-
 /* =========================== */
 /*     Help Section Styles     */
 /* =========================== */
@@ -53,31 +51,53 @@ main {
 
 .help-grid {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    padding: 45px 16px;
+    grid-template-columns: repeat(1, 1fr);
     gap: 60px;
-    place-items: center;
+    place-items: start;
     padding-bottom: 45px;
     border-top: 1px solid #d9d9d9;
     padding-top: 45px;
 }
 
-.help-card h3 {
-    font-size: 20px;
-    font-weight: 400;
-    margin-bottom: 25px;
-    letter-spacing: 0.5px;
-    color: #111;
+@media (min-width: 768px) {
+    .help-grid {
+        padding-inline: 1rem;
+        grid-template-columns: repeat(2, 1fr);
+        place-items: start;
+    }
 }
 
-.help-card p {
-    font-size: 16px;
-    line-height: 1.8;
-    color: #222;
-    margin: 0;
+@media (min-width: 1024px) {
+    .help-grid {
+        padding-inline: 0;
+        grid-template-columns: repeat(3, 1fr);
+        place-items: center;
+    }
 }
 
 
+.help-card {
+    h3 {
+        font-size: 20px;
+        font-weight: 400;
+        margin-bottom: 25px;
+        letter-spacing: 0.5px;
+        color: #111;
+    }
 
+    p {
+        font-size: 16px;
+        line-height: 1.8;
+        color: #222;
+        margin: 0;
+    }
+
+    a {
+        text-decoration: none;
+        color: inherit;
+    }
+}
 
 
 /* =========================== */
@@ -85,8 +105,20 @@ main {
 /* =========================== */
 .form-container {
     max-width: 800px;
-    margin: 45px auto;
+    margin: 0px auto;
     padding: 20px;
+}
+
+@media (min-width: 768px) {
+    .form-container {
+        margin-top: 20px;
+    }
+}
+
+@media (min-width: 1024px) {
+    .form-container {
+        margin-top: 45px;
+    }
 }
 
 h1 {
@@ -141,7 +173,7 @@ textarea {
     margin-bottom: 20px;
 }
 
-button {
+.submit-btn {
     width: 175px;
     height: 55px;
     border: none;
@@ -156,7 +188,7 @@ button {
     border: 1px solid #000;
 }
 
-button:hover {
+.submit-btn:hover {
     color: #000;
     background: transparent;
 }
@@ -171,9 +203,7 @@ button:hover {
         font-size: 16px;
     }
 
-    button {
+    .submit-btn {
         width: 100%;
     }
 }
-
-
