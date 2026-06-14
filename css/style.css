@@ -1290,7 +1290,7 @@ body {
 .ig-section {
     position: relative;
     overflow: hidden;
-    padding: 140px 0 120px;
+    padding: 50px 0;
     background: #f4f1ef;
 }
 
@@ -1300,6 +1300,13 @@ body {
     margin: auto;
     position: relative;
     z-index: 2;
+}
+
+@media (min-width: 768px) {
+    .ig-section {
+        padding-top: 140px;
+        padding-bottom: 120px;
+    }
 }
 
 /* EXPANDING BG CIRCLE */
@@ -1331,27 +1338,28 @@ body {
 }
 
 .ig-heading-content {
+    width: 100%;
     display: flex;
     flex-direction: column;
-    align-items: start;
+    align-items: center;
     text-align: left;
 }
 
 .ig-subtitle {
     display: block;
-    font-size: 14px;
+    font-size: clamp(12px, 2vw, 14px);
     letter-spacing: 2px;
     color: #111;
-    margin-bottom: 22px;
+    margin-bottom: clamp(12px, 2vw, 22px);
 }
 
 .ig-heading h2 {
-    font-size: 38px;
+    font-size: clamp(20px, 4.5vw, 52px);
     line-height: 1.1;
     font-weight: 300;
     letter-spacing: -1px;
     color: #111;
-    margin-bottom: 35px;
+    margin-bottom: clamp(12px, 3vw, 35px);
     text-transform: uppercase;
 }
 
@@ -1368,6 +1376,12 @@ body {
 
 .ig-follow-btn:hover {
     opacity: 0.6;
+}
+
+@media (min-width: 768px) {
+    .ig-heading-content {
+        align-items: start;
+    }
 }
 
 /* GRID */
@@ -1402,10 +1416,6 @@ body {
 
 @media (min-width: 1200px) {
 
-    .ig-heading h2 {
-        font-size: 52px;
-    }
-
     .ig-card img {
         height: 500px;
     }
@@ -1415,10 +1425,6 @@ body {
 
     .ig-section {
         padding: 100px 0;
-    }
-
-    .ig-heading h2 {
-        font-size: 42px;
     }
 
     .ig-grid {
@@ -1431,10 +1437,6 @@ body {
 }
 
 @media (min-width: 767px) {
-
-    .ig-heading h2 {
-        font-size: 32px;
-    }
 
     .ig-card img {
         height: 420px;
