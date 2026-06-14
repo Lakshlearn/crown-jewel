@@ -8,7 +8,7 @@
         <ul class="nav-list">
             <li class="nav-list-item"><a href="/crownweb/index.php">H.</a></li>
             <li class="nav-list-item"><a href="/crownweb/pages/about.php">ABOUT US</a></li>
-            <li class="nav-list-item"><a href="/crownweb/pages/colorpalette.php">COLOR PALETTE</a></li>
+            <li class="nav-list-itemX"><a href="/crownweb/pages/colorpalette.php">COLOR PALETTE</a></li>
             <li class="nav-list-item has-sub-nav-list"><a href="">CATEGORIES</a>
             <ul class="sub-nav-list">
                 <li class="sub-nav-list-item"><a href="/crownweb/pages/categories/accessories.php">ACCESSORIES</a></li>
