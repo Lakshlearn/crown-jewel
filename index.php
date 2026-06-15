@@ -47,7 +47,7 @@
                         </video>
                     </div>
 
-                    <!-- LEFT ARCH "C:\xampp\htdocs\crownweb\videos\frontmov3.MOV" -->
+                    <!-- LEFT ARCH "C:\xampp\htdocs\crown-jewel\videos\frontmov3.MOV" -->
                     <div class="media-card arch-top">
                         <video autoplay muted loop playsinline>
                             <source src="videos/frontmov3.mov" type="video/mp4">
@@ -87,7 +87,7 @@
                         </video>
                     </div>
 
-                    <!-- LEFT ARCH "C:\xampp\htdocs\crownweb\videos\frontmov3.MOV" -->
+                    <!-- LEFT ARCH "C:\xampp\htdocs\crown-jewel\videos\frontmov3.MOV" -->
                     <div class="media-card arch-top">
                         <video autoplay muted loop playsinline>
                             <source src="videos/frontmov3.mov" type="video/mp4">
@@ -148,10 +148,10 @@
                         </p>
 
                         <div class="about-links">
-                            <a class="shrink-underline" href="/crownweb/pages/about.php">
+                            <a class="shrink-underline" href="/crown-jewel/pages/about.php">
                                 OUR STORY
                             </a>
-                            <a class="shrink-underline" href="/crownweb/pages/gallery.php">
+                            <a class="shrink-underline" href="/crown-jewel/pages/gallery.php">
                                 VIEW ALL STONES
                             </a>
                         </div>

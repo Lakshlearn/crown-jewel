@@ -7,33 +7,33 @@
 
     <nav class="nav">
         <ul class="nav-list">
-            <li class="nav-list-item"><a href="/crownweb/index.php">H.</a></li>
-            <li class="nav-list-item"><a href="/crownweb/pages/about.php">ABOUT US</a></li>
-            <li class="nav-list-itemX"><a href="/crownweb/pages/colorpalette.php">COLOR PALETTE</a></li>
+            <li class="nav-list-item"><a href="/crown-jewel/index.php">H.</a></li>
+            <li class="nav-list-item"><a href="/crown-jewel/pages/about.php">ABOUT US</a></li>
+            <li class="nav-list-itemX"><a href="/crown-jewel/pages/colorpalette.php">COLOR PALETTE</a></li>
             <li class="nav-list-item has-sub-nav-list"><a href="">CATEGORIES</a>
                 <ul class="sub-nav-list">
-                    <li class="sub-nav-list-item"><a href="/crownweb/pages/categories/accessories.php">ACCESSORIES</a>
+                    <li class="sub-nav-list-item"><a href="/crown-jewel/pages/categories/accessories.php">ACCESSORIES</a>
                     </li>
                     <li class="sub-nav-list-item"><a
-                            href="/crownweb/pages/categories/articles-in-precious-stone.php">ARTICLES IN PRECIOUS
+                            href="/crown-jewel/pages/categories/articles-in-precious-stone.php">ARTICLES IN PRECIOUS
                             STONE</a></li>
-                    <li class="sub-nav-list-item"><a href="/crownweb/pages/categories/cnc-carving-panels.php">CNC
+                    <li class="sub-nav-list-item"><a href="/crown-jewel/pages/categories/cnc-carving-panels.php">CNC
                             CARVING PANELS</a></li>
-                    <li class="sub-nav-list-item"><a href="/crownweb/pages/categories/furniture-in-marble.php">FUNITURE
+                    <li class="sub-nav-list-item"><a href="/crown-jewel/pages/categories/furniture-in-marble.php">FUNITURE
                             IN MARBLE</a></li>
-                    <li class="sub-nav-list-item"><a href="/crownweb/pages/categories/inlay.php">INLAY</a></li>
-                    <li class="sub-nav-list-item"><a href="/crownweb/pages/categories/italian-glass.php">ITALIAN
+                    <li class="sub-nav-list-item"><a href="/crown-jewel/pages/categories/inlay.php">INLAY</a></li>
+                    <li class="sub-nav-list-item"><a href="/crown-jewel/pages/categories/italian-glass.php">ITALIAN
                             GLASS</a></li>
                     <li class="sub-nav-list-item"><a
-                            href="/crownweb/pages/categories/metal-with-precious-stone.php">METAL WITH PRECIOUS
+                            href="/crown-jewel/pages/categories/metal-with-precious-stone.php">METAL WITH PRECIOUS
                             STONES</a></li>
-                    <li class="sub-nav-list-item"><a href="/crownweb/pages/categories/semi-precious-slabs.php">SEMI
+                    <li class="sub-nav-list-item"><a href="/crown-jewel/pages/categories/semi-precious-slabs.php">SEMI
                             PRECIOUS STONES</a></li>
-                    <li class="sub-nav-list-item"><a href="/crownweb/pages/categories/waterjet-floorings.php">WATERJET
+                    <li class="sub-nav-list-item"><a href="/crown-jewel/pages/categories/waterjet-floorings.php">WATERJET
                             FLOORINGS</a></li>
                 </ul>
             </li>
-            <li class="nav-list-item"><a href="/crownweb/pages/contact.php">CONTACT</a></li>
+            <li class="nav-list-item"><a href="/crown-jewel/pages/contact.php">CONTACT</a></li>
         </ul>
     </nav>
 
@@ -47,34 +47,34 @@
             <i class="bi bi-x"></i>
         </button>
         <ul class="mobile-nav-list">
-            <li><a href="/crownweb/index.php">H.</a></li>
-            <li><a href="/crownweb/pages/about.php">About Us</a></li>
-            <li><a href="/crownweb/pages/colorpalette.php">Color Palette</a></li>
+            <li><a href="/crown-jewel/index.php">H.</a></li>
+            <li><a href="/crown-jewel/pages/about.php">About Us</a></li>
+            <li><a href="/crown-jewel/pages/colorpalette.php">Color Palette</a></li>
             <li class="has-mob-sub-nav-list"> <a href="#" class="submenu-toggle" aria-expanded="false">Categories <i
                         class="fa-solid fa-chevron-down"></i></a>
                 <ul class="mob-sub-list">
-                    <li class="mob-sub-list-item"><a href="/crownweb/pages/categories/accessories.php">ACCESSORIES</a>
+                    <li class="mob-sub-list-item"><a href="/crown-jewel/pages/categories/accessories.php">ACCESSORIES</a>
                     </li>
                     <li class="mob-sub-list-item"><a
-                            href="/crownweb/pages/categories/articles-in-precious-stone.php">ARTICLES IN PRECIOUS
+                            href="/crown-jewel/pages/categories/articles-in-precious-stone.php">ARTICLES IN PRECIOUS
                             STONE</a></li>
-                    <li class="mob-sub-list-item"><a href="/crownweb/pages/categories/cnc-carving-panels.php">CNC
+                    <li class="mob-sub-list-item"><a href="/crown-jewel/pages/categories/cnc-carving-panels.php">CNC
                             CARVING PANELS</a></li>
-                    <li class="mob-sub-list-item"><a href="/crownweb/pages/categories/furniture-in-marble.php">FUNITURE
+                    <li class="mob-sub-list-item"><a href="/crown-jewel/pages/categories/furniture-in-marble.php">FUNITURE
                             IN MARBLE</a></li>
-                    <li class="mob-sub-list-item"><a href="/crownweb/pages/categories/inlay.php">INLAY</a></li>
-                    <li class="mob-sub-list-item"><a href="/crownweb/pages/categories/italian-glass.php">ITALIAN
+                    <li class="mob-sub-list-item"><a href="/crown-jewel/pages/categories/inlay.php">INLAY</a></li>
+                    <li class="mob-sub-list-item"><a href="/crown-jewel/pages/categories/italian-glass.php">ITALIAN
                             GLASS</a></li>
                     <li class="mob-sub-list-item"><a
-                            href="/crownweb/pages/categories/metal-with-precious-stone.php">METAL WITH PRECIOUS
+                            href="/crown-jewel/pages/categories/metal-with-precious-stone.php">METAL WITH PRECIOUS
                             STONES</a></li>
-                    <li class="mob-sub-list-item"><a href="/crownweb/pages/categories/semi-precious-slabs.php">SEMI
+                    <li class="mob-sub-list-item"><a href="/crown-jewel/pages/categories/semi-precious-slabs.php">SEMI
                             PRECIOUS STONES</a></li>
-                    <li class="mob-sub-list-item"><a href="/crownweb/pages/categories/waterjet-floorings.php">WATERJET
+                    <li class="mob-sub-list-item"><a href="/crown-jewel/pages/categories/waterjet-floorings.php">WATERJET
                             FLOORINGS</a></li>
                 </ul>
             </li>
-            <li><a href="/crownweb/pages/contact.php">Contact</a></li>
+            <li><a href="/crown-jewel/pages/contact.php">Contact</a></li>
         </ul>
     </div>
 

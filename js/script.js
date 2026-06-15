@@ -185,7 +185,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
 // Dynamically load header and popup scripts from root js folder
 (function loadScripts() {
-    const baseUrl = '/crownweb/js/';
+    const baseUrl = '/crown-jewel/js/';
     const scripts = ['header.js', 'popup.js'];
 
     scripts.forEach((filename) => {
