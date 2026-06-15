@@ -9,7 +9,7 @@
         <ul class="nav-list">
             <li class="nav-list-item"><a href="/crown-jewel/index.php">H.</a></li>
             <li class="nav-list-item"><a href="/crown-jewel/pages/about.php">ABOUT US</a></li>
-            <li class="nav-list-itemX"><a href="/crown-jewel/pages/colorpalette.php">COLOR PALETTE</a></li>
+            <li class="nav-list-item"><a href="/crown-jewel/pages/colorpalette.php">COLOR PALETTE</a></li>
             <li class="nav-list-item has-sub-nav-list"><a href="">CATEGORIES</a>
                 <ul class="sub-nav-list">
                     <li class="sub-nav-list-item"><a href="/crown-jewel/pages/categories/accessories.php">ACCESSORIES</a>
