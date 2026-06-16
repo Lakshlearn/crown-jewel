@@ -87,16 +87,16 @@ define('PROCESS_STEPS', [
 // Instagram Posts
 define('INSTAGRAM_POSTS', [
     [
-        'image' => 'https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?q=80&w=1200&auto=format&fit=crop',
-        'link' => '#'
+        'image' => 'images/ig-post-1.jpg',
+        'link' => 'https://www.instagram.com/p/DZhhChXAeRB/'
     ],
     [
-        'image' => 'https://images.unsplash.com/photo-1496747611176-843222e1e57c?q=80&w=1200&auto=format&fit=crop',
-        'link' => '#'
+        'image' => 'images/ig-post-2.jpg',
+        'link' => 'https://www.instagram.com/p/DZH0U3HgQwN/'
     ],
     [
-        'image' => 'https://images.unsplash.com/photo-1483985988355-763728e1935b?q=80&w=1200&auto=format&fit=crop',
-        'link' => '#'
+        'image' => 'images/ig-post-3.jpg',
+        'link' => 'https://www.instagram.com/p/DX6dHe-AZp3/'
     ]
 ]);
 

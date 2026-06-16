@@ -452,7 +452,7 @@
 
                     <?php foreach (INSTAGRAM_POSTS as $post): ?>
                         <a href="<?php echo $post['link']; ?>" class="ig-card" target="_blank">
-                            <img src="<?php echo $post['image']; ?>" alt="Instagram Post">
+                            <img src="./<?php echo $post['image']; ?>" alt="Instagram Post">
                         </a>
                     <?php endforeach; ?>
 
