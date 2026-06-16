@@ -1386,13 +1386,6 @@ body {
 
 /* GRID */
 
-.ig-grid {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 12px;
-    position: relative;
-    z-index: 3;
-}
 
 .ig-card {
     position: relative;

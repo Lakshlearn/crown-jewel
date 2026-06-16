@@ -448,14 +448,9 @@
                     </div>
                 </div>
 
-                <div class="ig-grid">
-
-                    <?php foreach (INSTAGRAM_POSTS as $post): ?>
-                        <a href="<?php echo $post['link']; ?>" class="ig-card" target="_blank">
-                            <img src="./<?php echo $post['image']; ?>" alt="Instagram Post">
-                        </a>
-                    <?php endforeach; ?>
-
+                <div>
+                    <iframe src="https://widgets.sociablekit.com/instagram-feed/iframe/25689824" frameborder="0"
+                        width="100%" height="1000px"></iframe>
                 </div>
 
             </div>
