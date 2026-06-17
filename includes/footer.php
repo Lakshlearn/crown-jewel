@@ -1,3 +1,30 @@
+<?php
+$contact_send_status = '';
+$email = '';
+
+if ($_SERVER['REQUEST_METHOD'] === 'POST') {
+    $email = filter_var(trim($_POST['email'] ?? ''), FILTER_VALIDATE_EMAIL);
+
+    if ($name === '' || $email === false || $message === '') {
+        $contact_send_status = '<div class="form-status error">Please enter your name, a valid email, and your message.</div>';
+    } else {
+        $to = 'mail@crownjewel.in';
+        $subject = 'New SignUp Submission';
+        $body = "New User has Signed Up. Here is their Email: $email\n";
+        $headers = "From: Crown Jewels Website <no-reply@crownjewel.in>\r\n";
+        $headers .= "Reply-To: $email\r\n";
+        $headers .= "Content-Type: text/plain; charset=UTF-8\r\n";
+
+        if (mail($to, $subject, $body, $headers)) {
+            $contact_send_status = '<div class="form-status success">Thank you! Your message has been sent successfully.</div>';
+            $name = $email = $phone = $orderNumber = $message = '';
+        } else {
+            $contact_send_status = '<div class="form-status error">Sorry, we could not send your message right now. Please try again later.</div>';
+        }
+    }
+}
+?>
+
 <!-- ========================= -->
 <!--       Newsletter Footer   -->
 <!-- ========================= -->
@@ -14,10 +41,11 @@
             SIGN UP TO GET 10% OFF YOUR FIRST ORDER
         </div>
 
-        <div class="email-box">
-            <input type="email" placeholder="Enter your email address">
+        <form class="email-box" action="https://formsubmit.co/vivekdahiya312@gmail.com" method="POST">
+            <input type="hidden" name="_next" value="https://crownjewel.in/">
+            <input type="email" name="email" placeholder="Enter your email address" required>
             <button type="submit">&#8594;</button>
-        </div>
+        </form>
     </div>
 
     <div class="footer-links">
