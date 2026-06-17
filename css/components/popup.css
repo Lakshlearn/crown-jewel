@@ -34,7 +34,14 @@
 }
 
 .wj-image-section {
+    display: none;
     padding: 1rem;
+}
+
+@media (min-width: 769px) {
+    .wj-image-section {
+        display: block;
+    }
 }
 
 .wj-form-section {
@@ -115,10 +122,6 @@
 
     .wj-popup-container {
         grid-template-columns:1fr;
-    }
-
-    .wj-image-section {
-        height: 250px;
     }
 
     .wj-form-section {
