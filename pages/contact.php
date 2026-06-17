@@ -94,7 +94,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
             </h1>
 
             <?php echo $contact_send_status; ?>
-            <form action="https://formsubmit.co/info@crownjewel.in" method="POST">
+            <form action="https://formsubmit.co/mail@crownjewel.in" method="POST">
                 <input type="hidden" name="_next" value="https://crownjewel.in/">
                 <div class="row">
                     <div class="field">
