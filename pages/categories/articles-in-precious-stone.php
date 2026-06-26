@@ -53,8 +53,10 @@
     </section>
 
     <?php include '../../includes/footer.php'; ?>
-
+    
     <script src="../../js/script.js"></script>
+    <script src="../../js/header.js"></script>
+    <script src="../../js/popup.js"></script>
 </body>
 
 </html>
