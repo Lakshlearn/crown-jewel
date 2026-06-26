@@ -50,28 +50,28 @@
                     <!-- LEFT ARCH "C:\xampp\htdocs\crown-jewel\videos\frontmov3.MOV" -->
                     <div class="media-card arch-top">
                         <video autoplay muted loop playsinline>
-                            <source src="videos/frontmov3.mov" type="video/mp4">
+                            <source src="videos/frontmov3.mp4" type="video/mp4">
                         </video>
                     </div>
 
                     <!-- CENTER CIRCLE -->
                     <div class="media-card circle-card">
                         <video autoplay muted loop playsinline>
-                            <source src="videos/frontmov4.mov" type="video/mp4">
+                            <source src="videos/frontmov4.mp4" type="video/mp4">
                         </video>
                     </div>
 
                     <!-- RIGHT ARCH -->
                     <div class="media-card arch-bottom">
                         <video autoplay muted loop playsinline>
-                            <source src="videos/frontmov5.mov" type="video/mp4">
+                            <source src="videos/frontmov5.mp4" type="video/mp4">
                         </video>
                     </div>
 
                     <!-- SMALL RIGHT -->
                     <div class="media-card side-card">
                         <video autoplay muted loop playsinline>
-                            <source src="videos/frontmovie1.mov" type="video/mp4">
+                            <source src="videos/frontmovie1.mp4" type="video/mp4">
                         </video>
                     </div>
 
@@ -90,28 +90,28 @@
                     <!-- LEFT ARCH "C:\xampp\htdocs\crown-jewel\videos\frontmov3.MOV" -->
                     <div class="media-card arch-top">
                         <video autoplay muted loop playsinline>
-                            <source src="videos/frontmov3.mov" type="video/mp4">
+                            <source src="videos/frontmov3.mp4" type="video/mp4">
                         </video>
                     </div>
 
                     <!-- CENTER CIRCLE -->
                     <div class="media-card circle-card">
                         <video autoplay muted loop playsinline>
-                            <source src="videos/frontmov4.mov" type="video/mp4">
+                            <source src="videos/frontmov4.mp4" type="video/mp4">
                         </video>
                     </div>
 
                     <!-- RIGHT ARCH -->
                     <div class="media-card arch-bottom">
                         <video autoplay muted loop playsinline>
-                            <source src="videos/frontmov5.mov" type="video/mp4">
+                            <source src="videos/frontmov5.mp4" type="video/mp4">
                         </video>
                     </div>
 
                     <!-- SMALL RIGHT -->
                     <div class="media-card side-card">
                         <video autoplay muted loop playsinline>
-                            <source src="videos/frontmovie1.mov" type="video/mp4">
+                            <source src="videos/frontmovie1.mp4" type="video/mp4">
                         </video>
                     </div>
 
