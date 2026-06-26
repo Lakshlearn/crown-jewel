@@ -49,15 +49,15 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     </div>
 
     <div class="footer-links">
-        <a href="/crown-jewel/pages/categories/accessories.php">Accessories</a>
-        <a href="/crown-jewel/pages/categories/articles-precious-stones.php">Articles in Precious Stones</a>
-        <a href="/crown-jewel/pages/categories/cnc-carving-panels.php">CNC Carving Panels</a>
-        <a href="/crown-jewel/pages/categories/furniture-marble.php">Furniture in Marble</a>
-        <a href="/crown-jewel/pages/categories/inlay.php">Inlays</a>
-        <a href="/crown-jewel/pages/categories/italian-glass.php">Italian Glass</a>
-        <a href="/crown-jewel/pages/categories/semi-precious-slabs.php">Semi Precious Slabs</a>
-        <a href="/crown-jewel/pages/categories/metals-precious-stone.php">Metals With Precious Stone</a>
-        <a href="/crown-jewel/pages/categories/waterjet-floorings.php">Waterjet Floorings</a>
+        <a href="/pages/categories/accessories.php">Accessories</a>
+        <a href="/pages/categories/articles-precious-stones.php">Articles in Precious Stones</a>
+        <a href="/pages/categories/cnc-carving-panels.php">CNC Carving Panels</a>
+        <a href="/pages/categories/furniture-marble.php">Furniture in Marble</a>
+        <a href="/pages/categories/inlay.php">Inlays</a>
+        <a href="/pages/categories/italian-glass.php">Italian Glass</a>
+        <a href="/pages/categories/semi-precious-slabs.php">Semi Precious Slabs</a>
+        <a href="/pages/categories/metals-precious-stone.php">Metals With Precious Stone</a>
+        <a href="/pages/categories/waterjet-floorings.php">Waterjet Floorings</a>
     </div>
 
 </section>

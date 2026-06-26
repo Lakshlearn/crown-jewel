@@ -148,10 +148,10 @@
                         </p>
 
                         <div class="about-links">
-                            <a class="shrink-underline" href="/crown-jewel/pages/about.php">
+                            <a class="shrink-underline" href="/pages/about.php">
                                 OUR STORY
                             </a>
-                            <a class="shrink-underline" href="/crown-jewel/pages/gallery.php">
+                            <a class="shrink-underline" href="/pages/gallery.php">
                                 VIEW ALL STONES
                             </a>
                         </div>
