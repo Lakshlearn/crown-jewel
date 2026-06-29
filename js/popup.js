@@ -29,7 +29,7 @@ document
 
         try {
             const response = await fetch(
-                'https://api.crownjewel.in/appointment',
+                'http://localhost:8080/appointment',
                 {
                     method: 'POST',
                     headers: {
@@ -41,7 +41,7 @@ document
 
             const result = await response.json();
 
-            if (response.ok) {
+            if (result.success) {
                 status.innerHTML =
                     '<div class="form-status success">Thank you! Our specialist will contact you shortly.</div>';
 
