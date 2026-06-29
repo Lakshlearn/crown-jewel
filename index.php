@@ -13,6 +13,7 @@
 <body>
     <?php include 'includes/header.php'; ?>
     <?php include 'includes/popup.php'; ?>
+    <?php include 'includes/toast.php'; ?>
 
     <main>
 
@@ -458,9 +459,11 @@
     </main>
     <?php include 'includes/footer.php'; ?>
 
+    <script src="./js/toast.js"></script>
+    <script src="./js/popup.js"></script>
     <script src="./js/script.js"></script>
     <script src="./js/header.js"></script>
-    <script src="./js/popup.js"></script>
+    <script src="./js/footer.js"></script>
 </body>
 
 </html>

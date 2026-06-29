@@ -25,12 +25,11 @@ document
         const payload = {
             name: document.getElementById('leadName').value,
             phone: document.getElementById('leadPhone').value,
-            source: 'Waterjet Flooring Popup'
         };
 
         try {
             const response = await fetch(
-                'https://api.crownjewel.in/leads/waterjet',
+                'https://api.crownjewel.in/appointment',
                 {
                     method: 'POST',
                     headers: {
