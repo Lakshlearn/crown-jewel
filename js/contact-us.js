@@ -13,7 +13,7 @@ document.getElementById('contactForm').addEventListener('submit', async function
 
     try {
         const response = await fetch(
-            'https://api.crownjewel.in/contact',
+            'http://localhost:8080/contact',
             {
                 method: 'POST',
                 headers: {
@@ -25,7 +25,7 @@ document.getElementById('contactForm').addEventListener('submit', async function
 
         const result = await response.json();
 
-        if (response.ok) {
+        if (result.success) {
             status.innerHTML =
                 '<div class="form-status success">Thank you! Your message has been sent successfully.</div>';
 
