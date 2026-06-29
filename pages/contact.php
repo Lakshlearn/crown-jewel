@@ -134,6 +134,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         <?php include '../includes/footer.php'; ?>
 
         <script src="../js/script.js"></script>
+        <script src="../js/contact-us.js"></script>
         <script src="../js/header.js"></script>
         <script src="../js/popup.js"></script>
 </body>

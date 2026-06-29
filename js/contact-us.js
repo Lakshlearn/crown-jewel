@@ -1,5 +1,4 @@
-
-document.getElementById('contactForm').addEventListener('submit', async function(e) {
+document.getElementById('contactForm').addEventListener('submit', async function (e) {
     e.preventDefault();
 
     const status = document.getElementById('form-status');

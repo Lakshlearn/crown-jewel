@@ -1,4 +1,3 @@
-
 document.getElementById('newsletterForm').addEventListener('submit', async (e) => {
     e.preventDefault();
 

@@ -4,9 +4,9 @@ document.addEventListener("DOMContentLoaded", () => {
 
     const observer = new IntersectionObserver((entries) => {
 
-        entries.forEach((entry,index) => {
+        entries.forEach((entry, index) => {
 
-            if(entry.isIntersecting){
+            if (entry.isIntersecting) {
 
                 setTimeout(() => {
 
@@ -18,8 +18,8 @@ document.addEventListener("DOMContentLoaded", () => {
 
         });
 
-    },{
-        threshold:0.15
+    }, {
+        threshold: 0.15
     });
 
     reveals.forEach(item => {

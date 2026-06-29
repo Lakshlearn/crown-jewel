@@ -6,7 +6,7 @@ function closeWaterjetPopup() {
     document.getElementById("waterjetPopup").style.display = "none";
 }
 
-window.onclick = function(event) {
+window.onclick = function (event) {
 
     const popup = document.getElementById("waterjetPopup");
 
