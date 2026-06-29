@@ -56,14 +56,26 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                 contact you shortly.
             </p>
 
-            <form id="waterjetLeadForm" action="https://formsubmit.co/vivekdahiya312@gmail.com" method="POST">
-                <input type="hidden" name="_next" value="https://crownjewel.in/">
-                <input type="text" name="name" placeholder="Your Name" required>
-                <input type="tel" name="phone" placeholder="Phone Number" required>
+            <form id="waterjetLeadForm">
+                <input
+                    type="text"
+                    id="leadName"
+                    name="name"
+                    placeholder="Your Name"
+                    required>
+
+                <input
+                    type="tel"
+                    id="leadPhone"
+                    name="phone"
+                    placeholder="Phone Number"
+                    required>
+
                 <button type="submit">
                     Get Free Quote
                 </button>
 
+                <div id="waterjet-status"></div>
             </form>
         </div>
 

@@ -94,42 +94,39 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
             </h1>
 
             <?php echo $contact_send_status; ?>
-            <form action="https://formsubmit.co/mail@crownjewel.in" method="POST">
-                <input type="hidden" name="_next" value="https://crownjewel.in/">
+            <form id="contactForm">
                 <div class="row">
                     <div class="field">
                         <label for="name">Your name</label>
-                        <input type="text" id="name" name="name" value="<?php echo htmlspecialchars($name); ?>"
-                            required>
+                        <input type="text" id="name" name="name" required>
                     </div>
 
                     <div class="field">
                         <label for="email">Email address</label>
-                        <input type="email" id="email" name="email" value="<?php echo htmlspecialchars($email); ?>"
-                            required>
+                        <input type="email" id="email" name="email" required>
                     </div>
                 </div>
 
                 <div class="row">
                     <div class="field">
                         <label for="phone">Phone number</label>
-                        <input type="tel" id="phone" name="phone" value="<?php echo htmlspecialchars($phone); ?>">
+                        <input type="tel" id="phone" name="phone">
                     </div>
 
                     <div class="field">
                         <label for="order">Order number</label>
-                        <input type="text" id="order" name="order"
-                            value="<?php echo htmlspecialchars($orderNumber); ?>">
+                        <input type="text" id="order" name="order">
                     </div>
                 </div>
 
                 <div class="field full-width">
                     <label for="message">Your message</label>
-                    <textarea id="message" name="message" rows="8"
-                        required><?php echo htmlspecialchars($message); ?></textarea>
+                    <textarea id="message" name="message" rows="8" required></textarea>
                 </div>
 
                 <button type="submit" class="submit-btn">SUBMIT</button>
+
+                <div id="form-status"></div>
             </form>
 
         </div>
