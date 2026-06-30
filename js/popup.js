@@ -29,7 +29,7 @@ document
 
         try {
             const response = await fetch(
-                'http://localhost:8080/appointment',
+                'https://crown-jewel.onrender.com/appointment',
                 {
                     method: 'POST',
                     headers: {

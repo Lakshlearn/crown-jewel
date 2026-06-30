@@ -4,7 +4,7 @@ document.getElementById('newsletterForm').addEventListener('submit', async (e) =
     const email = document.getElementById('email').value;
 
     try {
-        const response = await fetch('http://localhost:8080/signup', {
+        const response = await fetch('https://crown-jewel.onrender.com/signup', {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json'
